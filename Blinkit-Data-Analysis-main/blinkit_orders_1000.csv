@@ -1,0 +1,1001 @@
+order_id,customer_id,city,product_category,product_name,quantity,price_per_unit,payment_mode,delivery_time_minutes,order_date,total_amount
+1,1654,Mumbai,Fruits,Soap,4,99,Credit Card,36,2024-01-01 00:00:00,396
+2,1114,Chennai,Dairy,Tomato,1,63,Credit Card,47,2024-01-01 01:00:00,63
+3,1025,Delhi,Dairy,Chips,1,219,Credit Card,40,2024-01-01 02:00:00,219
+4,1759,Chennai,Dairy,Chips,4,178,Debit Card,48,2024-01-01 03:00:00,712
+5,1281,Mumbai,Fruits,Juice,4,137,Cash,39,2024-01-01 04:00:00,548
+6,1250,Chennai,Fruits,Tomato,1,146,Credit Card,41,2024-01-01 05:00:00,146
+7,1228,Mumbai,Dairy,Tomato,5,165,UPI,35,2024-01-01 06:00:00,825
+8,1142,Pune,Vegetables,Milk,5,246,UPI,35,2024-01-01 07:00:00,1230
+9,1754,Bangalore,Vegetables,Onion,1,84,UPI,40,2024-01-01 08:00:00,84
+10,1104,Chennai,Personal Care,Soap,1,87,Credit Card,59,2024-01-01 09:00:00,87
+11,1692,Delhi,Fruits,Soap,5,289,Debit Card,15,2024-01-01 10:00:00,1445
+12,1758,Bangalore,Vegetables,Tomato,5,107,Debit Card,37,2024-01-01 11:00:00,535
+13,1913,Chennai,Snacks,Shampoo,3,34,Debit Card,8,2024-01-01 12:00:00,102
+14,1558,Bangalore,Personal Care,Banana,5,37,Credit Card,30,2024-01-01 13:00:00,185
+15,1089,Bangalore,Fruits,Onion,5,202,Cash,21,2024-01-01 14:00:00,1010
+16,1604,Delhi,Beverages,Tomato,2,186,Cash,36,2024-01-01 15:00:00,372
+17,1432,Chennai,Beverages,Chips,4,263,Credit Card,42,2024-01-01 16:00:00,1052
+18,1032,Hyderabad,Vegetables,Banana,3,259,Cash,29,2024-01-01 17:00:00,777
+19,1030,Delhi,Snacks,Apple,3,296,UPI,44,2024-01-01 18:00:00,888
+20,1095,Mumbai,Beverages,Juice,1,159,Debit Card,48,2024-01-01 19:00:00,159
+21,1223,Bangalore,Personal Care,Bread,2,300,Cash,27,2024-01-01 20:00:00,600
+22,1238,Chennai,Vegetables,Tomato,4,247,Debit Card,54,2024-01-01 21:00:00,988
+23,1517,Mumbai,Fruits,Shampoo,3,89,Credit Card,23,2024-01-01 22:00:00,267
+24,1616,Delhi,Fruits,Tomato,5,296,Debit Card,25,2024-01-01 23:00:00,1480
+25,1027,Mumbai,Vegetables,Shampoo,5,110,Debit Card,8,2024-01-02 00:00:00,550
+26,1574,Hyderabad,Beverages,Milk,5,253,Credit Card,6,2024-01-02 01:00:00,1265
+27,1203,Chennai,Personal Care,Soap,4,242,Debit Card,42,2024-01-02 02:00:00,968
+28,1733,Pune,Beverages,Tomato,3,288,Debit Card,7,2024-01-02 03:00:00,864
+29,1665,Pune,Personal Care,Milk,4,293,Credit Card,13,2024-01-02 04:00:00,1172
+30,1718,Bangalore,Personal Care,Onion,1,178,Credit Card,58,2024-01-02 05:00:00,178
+31,1558,Delhi,Beverages,Bread,1,197,Credit Card,28,2024-01-02 06:00:00,197
+32,1429,Hyderabad,Beverages,Chips,2,266,Debit Card,27,2024-01-02 07:00:00,532
+33,1225,Chennai,Snacks,Onion,1,296,Debit Card,56,2024-01-02 08:00:00,296
+34,1459,Hyderabad,Vegetables,Chips,3,136,UPI,52,2024-01-02 09:00:00,408
+35,1603,Chennai,Vegetables,Onion,3,65,Debit Card,42,2024-01-02 10:00:00,195
+36,1284,Mumbai,Fruits,Onion,3,246,Debit Card,6,2024-01-02 11:00:00,738
+37,1828,Chennai,Beverages,Tomato,5,177,UPI,53,2024-01-02 12:00:00,885
+38,1890,Delhi,Beverages,Banana,5,207,Credit Card,45,2024-01-02 13:00:00,1035
+39,1006,Hyderabad,Vegetables,Tomato,3,231,Debit Card,26,2024-01-02 14:00:00,693
+40,1777,Pune,Dairy,Tomato,1,153,UPI,29,2024-01-02 15:00:00,153
+41,1825,Delhi,Vegetables,Milk,1,99,Cash,11,2024-01-02 16:00:00,99
+42,1163,Pune,Personal Care,Banana,2,175,UPI,32,2024-01-02 17:00:00,350
+43,1714,Delhi,Beverages,Milk,4,25,Cash,27,2024-01-02 18:00:00,100
+44,1432,Pune,Vegetables,Soap,2,20,Credit Card,27,2024-01-02 19:00:00,40
+45,1348,Pune,Dairy,Soap,4,287,Credit Card,31,2024-01-02 20:00:00,1148
+46,1284,Pune,Dairy,Milk,1,89,Credit Card,27,2024-01-02 21:00:00,89
+47,1159,Hyderabad,Snacks,Soap,3,196,Cash,8,2024-01-02 22:00:00,588
+48,1220,Bangalore,Dairy,Shampoo,5,166,Cash,47,2024-01-02 23:00:00,830
+49,1980,Hyderabad,Personal Care,Shampoo,2,260,UPI,20,2024-01-03 00:00:00,520
+50,1781,Hyderabad,Fruits,Chips,2,293,UPI,20,2024-01-03 01:00:00,586
+51,1344,Bangalore,Personal Care,Milk,1,24,UPI,20,2024-01-03 02:00:00,24
+52,1104,Hyderabad,Fruits,Milk,4,271,Credit Card,46,2024-01-03 03:00:00,1084
+53,1094,Bangalore,Dairy,Apple,2,264,Debit Card,24,2024-01-03 04:00:00,528
+54,1389,Mumbai,Beverages,Milk,4,173,Cash,42,2024-01-03 05:00:00,692
+55,1099,Mumbai,Dairy,Juice,2,24,Cash,10,2024-01-03 06:00:00,48
+56,1367,Mumbai,Dairy,Juice,3,240,Cash,49,2024-01-03 07:00:00,720
+57,1867,Mumbai,Dairy,Chips,1,169,Debit Card,9,2024-01-03 08:00:00,169
+58,1352,Chennai,Snacks,Milk,4,138,UPI,60,2024-01-03 09:00:00,552
+59,1618,Mumbai,Fruits,Banana,1,23,UPI,24,2024-01-03 10:00:00,23
+60,1270,Bangalore,Vegetables,Bread,5,300,Credit Card,12,2024-01-03 11:00:00,1500
+61,1826,Delhi,Fruits,Tomato,1,211,UPI,26,2024-01-03 12:00:00,211
+62,1044,Hyderabad,Dairy,Soap,4,116,Debit Card,15,2024-01-03 13:00:00,464
+63,1747,Hyderabad,Snacks,Chips,4,230,Credit Card,6,2024-01-03 14:00:00,920
+64,1470,Hyderabad,Fruits,Apple,5,243,Debit Card,39,2024-01-03 15:00:00,1215
+65,1549,Chennai,Beverages,Milk,5,222,UPI,25,2024-01-03 16:00:00,1110
+66,1127,Pune,Snacks,Tomato,2,147,UPI,7,2024-01-03 17:00:00,294
+67,1996,Mumbai,Snacks,Bread,4,103,Debit Card,34,2024-01-03 18:00:00,412
+68,1944,Pune,Beverages,Banana,1,219,Debit Card,47,2024-01-03 19:00:00,219
+69,1387,Hyderabad,Fruits,Apple,5,213,Debit Card,60,2024-01-03 20:00:00,1065
+70,1080,Delhi,Snacks,Banana,1,132,Credit Card,32,2024-01-03 21:00:00,132
+71,1565,Delhi,Personal Care,Tomato,5,154,Debit Card,41,2024-01-03 22:00:00,770
+72,1300,Chennai,Beverages,Tomato,4,60,Credit Card,37,2024-01-03 23:00:00,240
+73,1849,Delhi,Snacks,Soap,5,236,Cash,31,2024-01-04 00:00:00,1180
+74,1643,Mumbai,Vegetables,Soap,4,142,Cash,22,2024-01-04 01:00:00,568
+75,1633,Pune,Fruits,Milk,5,284,Debit Card,6,2024-01-04 02:00:00,1420
+76,1906,Hyderabad,Personal Care,Juice,2,159,Cash,49,2024-01-04 03:00:00,318
+77,1882,Pune,Vegetables,Soap,5,165,UPI,35,2024-01-04 04:00:00,825
+78,1370,Mumbai,Personal Care,Bread,2,292,Cash,42,2024-01-04 05:00:00,584
+79,1591,Mumbai,Snacks,Banana,2,157,UPI,6,2024-01-04 06:00:00,314
+80,1196,Delhi,Vegetables,Apple,1,231,Cash,25,2024-01-04 07:00:00,231
+81,1721,Mumbai,Fruits,Shampoo,4,116,Credit Card,29,2024-01-04 08:00:00,464
+82,1071,Mumbai,Vegetables,Onion,5,55,Credit Card,41,2024-01-04 09:00:00,275
+83,1046,Delhi,Personal Care,Soap,5,113,Cash,29,2024-01-04 10:00:00,565
+84,1677,Delhi,Vegetables,Chips,3,89,Debit Card,25,2024-01-04 11:00:00,267
+85,1233,Hyderabad,Snacks,Apple,5,168,Credit Card,41,2024-01-04 12:00:00,840
+86,1791,Chennai,Snacks,Tomato,4,76,UPI,11,2024-01-04 13:00:00,304
+87,1296,Hyderabad,Fruits,Bread,4,253,UPI,56,2024-01-04 14:00:00,1012
+88,1081,Hyderabad,Snacks,Bread,5,251,Cash,36,2024-01-04 15:00:00,1255
+89,1875,Delhi,Snacks,Shampoo,2,159,Cash,11,2024-01-04 16:00:00,318
+90,1238,Delhi,Snacks,Banana,3,271,Credit Card,49,2024-01-04 17:00:00,813
+91,1887,Mumbai,Vegetables,Chips,4,116,Debit Card,48,2024-01-04 18:00:00,464
+92,1103,Hyderabad,Snacks,Shampoo,3,184,UPI,18,2024-01-04 19:00:00,552
+93,1389,Delhi,Personal Care,Apple,3,29,Credit Card,26,2024-01-04 20:00:00,87
+94,1284,Mumbai,Dairy,Soap,4,97,Credit Card,36,2024-01-04 21:00:00,388
+95,1464,Pune,Personal Care,Apple,2,45,Debit Card,37,2024-01-04 22:00:00,90
+96,1650,Mumbai,Fruits,Soap,2,293,Debit Card,56,2024-01-04 23:00:00,586
+97,1854,Bangalore,Personal Care,Shampoo,4,31,Cash,53,2024-01-05 00:00:00,124
+98,1373,Delhi,Fruits,Apple,5,115,Credit Card,47,2024-01-05 01:00:00,575
+99,1166,Mumbai,Personal Care,Onion,5,72,Credit Card,26,2024-01-05 02:00:00,360
+100,1379,Delhi,Beverages,Milk,3,164,Credit Card,15,2024-01-05 03:00:00,492
+101,1363,Hyderabad,Vegetables,Tomato,5,157,UPI,44,2024-01-05 04:00:00,785
+102,1214,Mumbai,Vegetables,Tomato,3,84,Credit Card,24,2024-01-05 05:00:00,252
+103,1686,Hyderabad,Snacks,Apple,5,244,Credit Card,28,2024-01-05 06:00:00,1220
+104,1273,Mumbai,Snacks,Soap,2,24,Credit Card,32,2024-01-05 07:00:00,48
+105,1718,Chennai,Fruits,Bread,2,139,Credit Card,17,2024-01-05 08:00:00,278
+106,1959,Hyderabad,Personal Care,Banana,2,66,Credit Card,36,2024-01-05 09:00:00,132
+107,1699,Mumbai,Snacks,Soap,5,97,Credit Card,45,2024-01-05 10:00:00,485
+108,1663,Mumbai,Snacks,Shampoo,3,27,Credit Card,59,2024-01-05 11:00:00,81
+109,1073,Delhi,Vegetables,Shampoo,3,272,Debit Card,55,2024-01-05 12:00:00,816
+110,1623,Delhi,Vegetables,Apple,2,131,Credit Card,9,2024-01-05 13:00:00,262
+111,1650,Pune,Beverages,Banana,2,195,UPI,58,2024-01-05 14:00:00,390
+112,1175,Delhi,Dairy,Apple,5,235,Cash,59,2024-01-05 15:00:00,1175
+113,1546,Pune,Dairy,Soap,5,179,Debit Card,39,2024-01-05 16:00:00,895
+114,1746,Chennai,Beverages,Milk,3,275,Credit Card,18,2024-01-05 17:00:00,825
+115,1250,Pune,Fruits,Tomato,1,210,Cash,23,2024-01-05 18:00:00,210
+116,1167,Delhi,Dairy,Milk,3,257,Cash,21,2024-01-05 19:00:00,771
+117,1473,Pune,Dairy,Banana,5,36,Debit Card,8,2024-01-05 20:00:00,180
+118,1388,Delhi,Dairy,Banana,4,189,Cash,24,2024-01-05 21:00:00,756
+119,1276,Hyderabad,Fruits,Banana,5,61,UPI,41,2024-01-05 22:00:00,305
+120,1947,Pune,Personal Care,Tomato,5,94,Credit Card,30,2024-01-05 23:00:00,470
+121,1655,Hyderabad,Vegetables,Chips,4,48,Credit Card,56,2024-01-06 00:00:00,192
+122,1704,Chennai,Personal Care,Juice,5,156,Cash,19,2024-01-06 01:00:00,780
+123,1570,Pune,Dairy,Bread,3,220,Debit Card,44,2024-01-06 02:00:00,660
+124,1224,Delhi,Dairy,Chips,4,56,Cash,52,2024-01-06 03:00:00,224
+125,1701,Mumbai,Beverages,Onion,1,298,Credit Card,10,2024-01-06 04:00:00,298
+126,1332,Delhi,Snacks,Milk,5,260,Credit Card,50,2024-01-06 05:00:00,1300
+127,1863,Pune,Fruits,Juice,1,112,Credit Card,59,2024-01-06 06:00:00,112
+128,1786,Bangalore,Vegetables,Milk,1,118,Credit Card,42,2024-01-06 07:00:00,118
+129,1794,Bangalore,Fruits,Apple,4,148,Cash,11,2024-01-06 08:00:00,592
+130,1057,Bangalore,Dairy,Onion,2,215,Credit Card,42,2024-01-06 09:00:00,430
+131,1234,Delhi,Fruits,Onion,1,26,UPI,26,2024-01-06 10:00:00,26
+132,1841,Chennai,Fruits,Banana,1,82,Cash,22,2024-01-06 11:00:00,82
+133,1032,Hyderabad,Personal Care,Apple,2,147,UPI,9,2024-01-06 12:00:00,294
+134,1824,Pune,Personal Care,Shampoo,3,217,UPI,41,2024-01-06 13:00:00,651
+135,1323,Bangalore,Dairy,Shampoo,2,246,Debit Card,56,2024-01-06 14:00:00,492
+136,1410,Bangalore,Personal Care,Chips,3,146,Cash,38,2024-01-06 15:00:00,438
+137,1274,Delhi,Personal Care,Chips,3,37,Credit Card,35,2024-01-06 16:00:00,111
+138,1067,Mumbai,Beverages,Soap,2,121,Cash,32,2024-01-06 17:00:00,242
+139,1216,Mumbai,Personal Care,Juice,1,255,Cash,18,2024-01-06 18:00:00,255
+140,1935,Chennai,Beverages,Bread,3,68,Credit Card,27,2024-01-06 19:00:00,204
+141,1965,Delhi,Vegetables,Milk,2,286,Credit Card,55,2024-01-06 20:00:00,572
+142,1580,Chennai,Fruits,Milk,5,126,Debit Card,9,2024-01-06 21:00:00,630
+143,1897,Bangalore,Personal Care,Onion,1,262,Credit Card,46,2024-01-06 22:00:00,262
+144,1735,Bangalore,Dairy,Onion,3,219,Credit Card,57,2024-01-06 23:00:00,657
+145,1322,Mumbai,Personal Care,Bread,4,179,Cash,24,2024-01-07 00:00:00,716
+146,1217,Hyderabad,Dairy,Banana,1,185,UPI,37,2024-01-07 01:00:00,185
+147,1671,Pune,Fruits,Juice,5,101,Debit Card,56,2024-01-07 02:00:00,505
+148,1511,Bangalore,Dairy,Shampoo,5,41,UPI,24,2024-01-07 03:00:00,205
+149,1405,Pune,Dairy,Soap,2,286,UPI,32,2024-01-07 04:00:00,572
+150,1905,Chennai,Vegetables,Soap,5,82,Credit Card,47,2024-01-07 05:00:00,410
+151,1936,Bangalore,Snacks,Banana,4,149,UPI,39,2024-01-07 06:00:00,596
+152,1658,Delhi,Fruits,Chips,2,266,Debit Card,25,2024-01-07 07:00:00,532
+153,1469,Hyderabad,Vegetables,Onion,5,172,Debit Card,17,2024-01-07 08:00:00,860
+154,1146,Mumbai,Snacks,Apple,3,121,Credit Card,31,2024-01-07 09:00:00,363
+155,1271,Hyderabad,Personal Care,Apple,1,204,Debit Card,30,2024-01-07 10:00:00,204
+156,1142,Hyderabad,Beverages,Onion,4,46,Debit Card,21,2024-01-07 11:00:00,184
+157,1252,Pune,Vegetables,Bread,4,131,Debit Card,44,2024-01-07 12:00:00,524
+158,1762,Mumbai,Fruits,Soap,4,77,Cash,37,2024-01-07 13:00:00,308
+159,1574,Chennai,Fruits,Milk,3,140,Cash,34,2024-01-07 14:00:00,420
+160,1551,Delhi,Fruits,Soap,5,242,Credit Card,47,2024-01-07 15:00:00,1210
+161,1269,Hyderabad,Vegetables,Soap,1,186,Credit Card,53,2024-01-07 16:00:00,186
+162,1764,Mumbai,Dairy,Bread,1,27,UPI,40,2024-01-07 17:00:00,27
+163,1598,Hyderabad,Dairy,Milk,3,105,Credit Card,16,2024-01-07 18:00:00,315
+164,1438,Bangalore,Fruits,Bread,2,161,Debit Card,6,2024-01-07 19:00:00,322
+165,1919,Chennai,Fruits,Milk,5,81,UPI,45,2024-01-07 20:00:00,405
+166,1597,Bangalore,Snacks,Chips,4,222,Cash,50,2024-01-07 21:00:00,888
+167,1408,Pune,Dairy,Banana,2,144,Debit Card,38,2024-01-07 22:00:00,288
+168,1370,Hyderabad,Vegetables,Juice,3,24,UPI,60,2024-01-07 23:00:00,72
+169,1224,Delhi,Dairy,Tomato,5,41,Cash,16,2024-01-08 00:00:00,205
+170,1141,Bangalore,Dairy,Apple,5,263,Cash,41,2024-01-08 01:00:00,1315
+171,1521,Delhi,Snacks,Banana,5,99,Cash,36,2024-01-08 02:00:00,495
+172,1505,Hyderabad,Beverages,Shampoo,2,210,Debit Card,18,2024-01-08 03:00:00,420
+173,1093,Bangalore,Snacks,Tomato,2,65,Debit Card,47,2024-01-08 04:00:00,130
+174,1773,Mumbai,Snacks,Shampoo,3,147,UPI,57,2024-01-08 05:00:00,441
+175,1048,Pune,Fruits,Bread,4,100,Credit Card,52,2024-01-08 06:00:00,400
+176,1881,Mumbai,Fruits,Tomato,2,275,Cash,34,2024-01-08 07:00:00,550
+177,1112,Bangalore,Dairy,Banana,1,66,Cash,22,2024-01-08 08:00:00,66
+178,1156,Delhi,Personal Care,Chips,2,193,Credit Card,45,2024-01-08 09:00:00,386
+179,1642,Delhi,Snacks,Juice,2,50,Cash,39,2024-01-08 10:00:00,100
+180,1163,Chennai,Dairy,Apple,5,50,Cash,56,2024-01-08 11:00:00,250
+181,1811,Bangalore,Fruits,Onion,1,202,Debit Card,44,2024-01-08 12:00:00,202
+182,1696,Delhi,Snacks,Soap,4,98,Cash,59,2024-01-08 13:00:00,392
+183,1432,Delhi,Dairy,Chips,1,294,Cash,54,2024-01-08 14:00:00,294
+184,1610,Pune,Fruits,Juice,4,74,Credit Card,32,2024-01-08 15:00:00,296
+185,1065,Hyderabad,Fruits,Milk,3,84,Debit Card,41,2024-01-08 16:00:00,252
+186,1394,Pune,Beverages,Tomato,5,269,UPI,51,2024-01-08 17:00:00,1345
+187,1390,Delhi,Beverages,Bread,3,139,Credit Card,45,2024-01-08 18:00:00,417
+188,1610,Bangalore,Snacks,Bread,2,182,Cash,8,2024-01-08 19:00:00,364
+189,1479,Delhi,Fruits,Shampoo,2,197,Debit Card,38,2024-01-08 20:00:00,394
+190,1541,Bangalore,Personal Care,Tomato,5,244,Credit Card,17,2024-01-08 21:00:00,1220
+191,1257,Delhi,Fruits,Soap,3,118,Credit Card,28,2024-01-08 22:00:00,354
+192,1994,Bangalore,Personal Care,Bread,1,30,Cash,34,2024-01-08 23:00:00,30
+193,1566,Bangalore,Vegetables,Shampoo,3,213,Cash,14,2024-01-09 00:00:00,639
+194,1881,Pune,Dairy,Milk,4,203,Debit Card,20,2024-01-09 01:00:00,812
+195,1965,Hyderabad,Snacks,Tomato,2,88,Cash,14,2024-01-09 02:00:00,176
+196,1011,Pune,Personal Care,Milk,1,148,Credit Card,52,2024-01-09 03:00:00,148
+197,1696,Chennai,Snacks,Milk,2,40,Cash,48,2024-01-09 04:00:00,80
+198,1738,Mumbai,Snacks,Banana,3,268,Credit Card,53,2024-01-09 05:00:00,804
+199,1117,Mumbai,Snacks,Onion,5,244,UPI,24,2024-01-09 06:00:00,1220
+200,1698,Delhi,Dairy,Bread,1,170,Credit Card,59,2024-01-09 07:00:00,170
+201,1906,Mumbai,Snacks,Onion,5,297,Debit Card,32,2024-01-09 08:00:00,1485
+202,1549,Delhi,Dairy,Milk,3,270,Credit Card,31,2024-01-09 09:00:00,810
+203,1768,Hyderabad,Fruits,Tomato,4,117,Credit Card,25,2024-01-09 10:00:00,468
+204,1273,Mumbai,Vegetables,Shampoo,5,115,Debit Card,60,2024-01-09 11:00:00,575
+205,1787,Hyderabad,Fruits,Soap,5,298,Cash,58,2024-01-09 12:00:00,1490
+206,1656,Chennai,Dairy,Apple,3,198,UPI,9,2024-01-09 13:00:00,594
+207,1348,Pune,Vegetables,Apple,1,185,UPI,45,2024-01-09 14:00:00,185
+208,1114,Hyderabad,Personal Care,Onion,3,259,UPI,18,2024-01-09 15:00:00,777
+209,1300,Bangalore,Personal Care,Banana,5,160,Cash,59,2024-01-09 16:00:00,800
+210,1445,Delhi,Snacks,Tomato,2,102,Credit Card,31,2024-01-09 17:00:00,204
+211,1161,Pune,Snacks,Juice,2,55,Credit Card,22,2024-01-09 18:00:00,110
+212,1464,Chennai,Vegetables,Bread,5,291,Cash,57,2024-01-09 19:00:00,1455
+213,1003,Hyderabad,Snacks,Soap,1,99,Credit Card,23,2024-01-09 20:00:00,99
+214,1976,Bangalore,Personal Care,Milk,5,250,Cash,46,2024-01-09 21:00:00,1250
+215,1739,Pune,Snacks,Apple,2,171,UPI,15,2024-01-09 22:00:00,342
+216,1896,Pune,Vegetables,Juice,4,154,Credit Card,21,2024-01-09 23:00:00,616
+217,1736,Hyderabad,Fruits,Milk,5,297,UPI,48,2024-01-10 00:00:00,1485
+218,1269,Pune,Dairy,Chips,5,207,Credit Card,43,2024-01-10 01:00:00,1035
+219,1995,Delhi,Snacks,Tomato,4,252,Debit Card,20,2024-01-10 02:00:00,1008
+220,1512,Hyderabad,Beverages,Tomato,1,20,UPI,30,2024-01-10 03:00:00,20
+221,1780,Mumbai,Beverages,Shampoo,3,279,Credit Card,20,2024-01-10 04:00:00,837
+222,1182,Delhi,Dairy,Banana,2,214,UPI,12,2024-01-10 05:00:00,428
+223,1519,Chennai,Beverages,Milk,2,114,Debit Card,14,2024-01-10 06:00:00,228
+224,1934,Mumbai,Vegetables,Chips,3,29,UPI,17,2024-01-10 07:00:00,87
+225,1108,Pune,Snacks,Banana,3,206,Credit Card,6,2024-01-10 08:00:00,618
+226,1891,Chennai,Beverages,Apple,3,142,Cash,20,2024-01-10 09:00:00,426
+227,1640,Mumbai,Vegetables,Shampoo,3,184,Debit Card,56,2024-01-10 10:00:00,552
+228,1305,Mumbai,Dairy,Shampoo,2,52,Credit Card,57,2024-01-10 11:00:00,104
+229,1861,Delhi,Dairy,Apple,5,295,Debit Card,24,2024-01-10 12:00:00,1475
+230,1654,Bangalore,Dairy,Banana,5,218,UPI,34,2024-01-10 13:00:00,1090
+231,1519,Bangalore,Vegetables,Onion,4,117,UPI,36,2024-01-10 14:00:00,468
+232,1623,Mumbai,Snacks,Onion,5,288,UPI,40,2024-01-10 15:00:00,1440
+233,1203,Mumbai,Snacks,Shampoo,1,274,Cash,32,2024-01-10 16:00:00,274
+234,1156,Hyderabad,Dairy,Shampoo,1,98,Credit Card,32,2024-01-10 17:00:00,98
+235,1382,Mumbai,Personal Care,Juice,3,164,UPI,46,2024-01-10 18:00:00,492
+236,1780,Pune,Beverages,Shampoo,4,185,Cash,7,2024-01-10 19:00:00,740
+237,1165,Bangalore,Beverages,Bread,2,229,Debit Card,17,2024-01-10 20:00:00,458
+238,1552,Bangalore,Snacks,Onion,5,184,Debit Card,15,2024-01-10 21:00:00,920
+239,1976,Delhi,Snacks,Milk,5,76,Credit Card,22,2024-01-10 22:00:00,380
+240,1797,Bangalore,Personal Care,Juice,2,69,Credit Card,13,2024-01-10 23:00:00,138
+241,1944,Pune,Dairy,Soap,1,287,Debit Card,6,2024-01-11 00:00:00,287
+242,1543,Chennai,Dairy,Soap,3,54,Cash,21,2024-01-11 01:00:00,162
+243,1940,Pune,Personal Care,Milk,4,42,Debit Card,55,2024-01-11 02:00:00,168
+244,1000,Bangalore,Dairy,Banana,1,86,Cash,56,2024-01-11 03:00:00,86
+245,1613,Chennai,Snacks,Shampoo,4,111,UPI,22,2024-01-11 04:00:00,444
+246,1331,Mumbai,Snacks,Banana,3,36,Cash,47,2024-01-11 05:00:00,108
+247,1500,Bangalore,Beverages,Shampoo,5,123,Debit Card,40,2024-01-11 06:00:00,615
+248,1019,Hyderabad,Personal Care,Banana,3,74,Cash,16,2024-01-11 07:00:00,222
+249,1114,Hyderabad,Beverages,Apple,1,268,Debit Card,46,2024-01-11 08:00:00,268
+250,1951,Mumbai,Beverages,Onion,5,118,UPI,59,2024-01-11 09:00:00,590
+251,1371,Mumbai,Vegetables,Chips,3,70,UPI,7,2024-01-11 10:00:00,210
+252,1899,Bangalore,Dairy,Onion,5,36,Debit Card,51,2024-01-11 11:00:00,180
+253,1851,Delhi,Personal Care,Onion,5,218,UPI,36,2024-01-11 12:00:00,1090
+254,1826,Bangalore,Vegetables,Bread,4,270,Cash,55,2024-01-11 13:00:00,1080
+255,1314,Delhi,Vegetables,Apple,4,289,Credit Card,6,2024-01-11 14:00:00,1156
+256,1245,Chennai,Personal Care,Milk,1,151,UPI,8,2024-01-11 15:00:00,151
+257,1059,Mumbai,Personal Care,Apple,3,45,Credit Card,60,2024-01-11 16:00:00,135
+258,1246,Bangalore,Beverages,Tomato,2,207,Cash,10,2024-01-11 17:00:00,414
+259,1899,Hyderabad,Beverages,Chips,3,133,Credit Card,25,2024-01-11 18:00:00,399
+260,1580,Pune,Beverages,Tomato,5,56,UPI,43,2024-01-11 19:00:00,280
+261,1969,Pune,Dairy,Chips,1,26,Cash,24,2024-01-11 20:00:00,26
+262,1080,Delhi,Dairy,Shampoo,1,126,Cash,60,2024-01-11 21:00:00,126
+263,1087,Bangalore,Snacks,Juice,2,271,UPI,9,2024-01-11 22:00:00,542
+264,1749,Mumbai,Personal Care,Juice,5,60,UPI,31,2024-01-11 23:00:00,300
+265,1497,Delhi,Beverages,Soap,5,259,Credit Card,28,2024-01-12 00:00:00,1295
+266,1835,Chennai,Vegetables,Banana,1,51,Debit Card,47,2024-01-12 01:00:00,51
+267,1070,Bangalore,Snacks,Juice,1,204,UPI,47,2024-01-12 02:00:00,204
+268,1778,Chennai,Snacks,Milk,2,232,Cash,10,2024-01-12 03:00:00,464
+269,1545,Hyderabad,Personal Care,Soap,2,208,Credit Card,30,2024-01-12 04:00:00,416
+270,1784,Bangalore,Dairy,Bread,4,49,UPI,58,2024-01-12 05:00:00,196
+271,1128,Chennai,Dairy,Apple,1,156,UPI,51,2024-01-12 06:00:00,156
+272,1131,Delhi,Beverages,Tomato,2,290,Cash,58,2024-01-12 07:00:00,580
+273,1675,Pune,Fruits,Onion,5,40,UPI,13,2024-01-12 08:00:00,200
+274,1486,Mumbai,Fruits,Banana,4,56,Cash,20,2024-01-12 09:00:00,224
+275,1969,Mumbai,Personal Care,Tomato,1,175,Cash,12,2024-01-12 10:00:00,175
+276,1562,Mumbai,Fruits,Banana,2,59,UPI,41,2024-01-12 11:00:00,118
+277,1169,Mumbai,Personal Care,Chips,1,130,Credit Card,52,2024-01-12 12:00:00,130
+278,1271,Bangalore,Snacks,Apple,4,285,Debit Card,37,2024-01-12 13:00:00,1140
+279,1540,Delhi,Beverages,Onion,3,69,Cash,12,2024-01-12 14:00:00,207
+280,1893,Hyderabad,Vegetables,Bread,1,71,Cash,38,2024-01-12 15:00:00,71
+281,1621,Pune,Beverages,Shampoo,1,138,Credit Card,47,2024-01-12 16:00:00,138
+282,1433,Bangalore,Vegetables,Bread,1,292,Debit Card,58,2024-01-12 17:00:00,292
+283,1987,Bangalore,Snacks,Bread,1,217,UPI,42,2024-01-12 18:00:00,217
+284,1216,Pune,Vegetables,Chips,2,117,UPI,54,2024-01-12 19:00:00,234
+285,1951,Chennai,Fruits,Banana,3,118,Cash,38,2024-01-12 20:00:00,354
+286,1552,Mumbai,Beverages,Bread,5,289,Credit Card,21,2024-01-12 21:00:00,1445
+287,1773,Pune,Vegetables,Banana,1,147,Debit Card,36,2024-01-12 22:00:00,147
+288,1747,Delhi,Fruits,Shampoo,5,111,UPI,10,2024-01-12 23:00:00,555
+289,1706,Bangalore,Personal Care,Chips,2,232,Credit Card,20,2024-01-13 00:00:00,464
+290,1205,Pune,Vegetables,Chips,3,74,Debit Card,43,2024-01-13 01:00:00,222
+291,1730,Chennai,Vegetables,Tomato,4,203,Cash,12,2024-01-13 02:00:00,812
+292,1319,Hyderabad,Fruits,Milk,4,254,Cash,54,2024-01-13 03:00:00,1016
+293,1408,Hyderabad,Vegetables,Tomato,4,238,UPI,56,2024-01-13 04:00:00,952
+294,1687,Chennai,Dairy,Banana,4,73,Debit Card,25,2024-01-13 05:00:00,292
+295,1665,Mumbai,Beverages,Shampoo,4,105,Credit Card,26,2024-01-13 06:00:00,420
+296,1382,Mumbai,Fruits,Soap,3,112,Cash,58,2024-01-13 07:00:00,336
+297,1448,Delhi,Personal Care,Apple,1,225,Debit Card,42,2024-01-13 08:00:00,225
+298,1921,Pune,Personal Care,Tomato,4,278,Cash,52,2024-01-13 09:00:00,1112
+299,1529,Mumbai,Fruits,Bread,1,192,Debit Card,29,2024-01-13 10:00:00,192
+300,1462,Chennai,Snacks,Shampoo,5,100,Debit Card,56,2024-01-13 11:00:00,500
+301,1123,Chennai,Personal Care,Onion,1,293,Cash,52,2024-01-13 12:00:00,293
+302,1253,Chennai,Dairy,Banana,5,246,UPI,52,2024-01-13 13:00:00,1230
+303,1230,Delhi,Snacks,Milk,1,200,Credit Card,20,2024-01-13 14:00:00,200
+304,1065,Mumbai,Beverages,Apple,5,181,Debit Card,32,2024-01-13 15:00:00,905
+305,1346,Chennai,Vegetables,Tomato,1,186,Credit Card,18,2024-01-13 16:00:00,186
+306,1021,Mumbai,Vegetables,Bread,1,210,Cash,14,2024-01-13 17:00:00,210
+307,1602,Delhi,Fruits,Onion,3,231,Cash,11,2024-01-13 18:00:00,693
+308,1567,Mumbai,Beverages,Tomato,5,240,UPI,16,2024-01-13 19:00:00,1200
+309,1235,Chennai,Snacks,Juice,1,185,Credit Card,18,2024-01-13 20:00:00,185
+310,1602,Mumbai,Vegetables,Juice,3,143,Cash,22,2024-01-13 21:00:00,429
+311,1225,Chennai,Beverages,Milk,3,299,Debit Card,33,2024-01-13 22:00:00,897
+312,1007,Pune,Personal Care,Bread,5,129,Cash,31,2024-01-13 23:00:00,645
+313,1072,Hyderabad,Fruits,Shampoo,1,212,UPI,21,2024-01-14 00:00:00,212
+314,1724,Bangalore,Personal Care,Bread,3,150,UPI,60,2024-01-14 01:00:00,450
+315,1646,Chennai,Dairy,Milk,4,204,UPI,42,2024-01-14 02:00:00,816
+316,1060,Bangalore,Personal Care,Shampoo,4,251,Debit Card,8,2024-01-14 03:00:00,1004
+317,1234,Chennai,Personal Care,Apple,4,249,UPI,36,2024-01-14 04:00:00,996
+318,1069,Delhi,Fruits,Bread,1,223,Cash,39,2024-01-14 05:00:00,223
+319,1927,Bangalore,Personal Care,Chips,4,20,Debit Card,28,2024-01-14 06:00:00,80
+320,1032,Chennai,Beverages,Soap,2,37,Credit Card,49,2024-01-14 07:00:00,74
+321,1880,Bangalore,Vegetables,Onion,5,165,Cash,12,2024-01-14 08:00:00,825
+322,1338,Chennai,Beverages,Milk,2,28,Debit Card,25,2024-01-14 09:00:00,56
+323,1072,Bangalore,Personal Care,Juice,2,285,Debit Card,39,2024-01-14 10:00:00,570
+324,1526,Bangalore,Vegetables,Onion,4,89,Debit Card,32,2024-01-14 11:00:00,356
+325,1243,Chennai,Fruits,Milk,5,174,UPI,35,2024-01-14 12:00:00,870
+326,1285,Chennai,Vegetables,Onion,3,23,Cash,48,2024-01-14 13:00:00,69
+327,1685,Bangalore,Snacks,Bread,2,173,Cash,20,2024-01-14 14:00:00,346
+328,1497,Pune,Personal Care,Soap,3,133,Credit Card,22,2024-01-14 15:00:00,399
+329,1219,Delhi,Dairy,Tomato,3,129,Cash,55,2024-01-14 16:00:00,387
+330,1552,Hyderabad,Dairy,Milk,1,181,UPI,14,2024-01-14 17:00:00,181
+331,1135,Mumbai,Snacks,Tomato,5,31,Credit Card,28,2024-01-14 18:00:00,155
+332,1740,Bangalore,Snacks,Tomato,5,161,Credit Card,35,2024-01-14 19:00:00,805
+333,1957,Delhi,Personal Care,Bread,2,281,Debit Card,50,2024-01-14 20:00:00,562
+334,1903,Pune,Fruits,Onion,1,99,Debit Card,28,2024-01-14 21:00:00,99
+335,1584,Hyderabad,Snacks,Milk,1,68,Credit Card,57,2024-01-14 22:00:00,68
+336,1590,Chennai,Vegetables,Onion,1,39,Credit Card,24,2024-01-14 23:00:00,39
+337,1484,Hyderabad,Beverages,Chips,5,255,UPI,6,2024-01-15 00:00:00,1275
+338,1248,Chennai,Vegetables,Shampoo,5,202,UPI,46,2024-01-15 01:00:00,1010
+339,1803,Mumbai,Beverages,Chips,4,99,Credit Card,43,2024-01-15 02:00:00,396
+340,1484,Hyderabad,Snacks,Banana,5,90,Cash,7,2024-01-15 03:00:00,450
+341,1826,Hyderabad,Beverages,Chips,5,155,UPI,58,2024-01-15 04:00:00,775
+342,1416,Delhi,Fruits,Banana,1,207,Debit Card,52,2024-01-15 05:00:00,207
+343,1194,Pune,Dairy,Onion,3,147,Credit Card,47,2024-01-15 06:00:00,441
+344,1096,Delhi,Vegetables,Apple,2,139,UPI,56,2024-01-15 07:00:00,278
+345,1099,Delhi,Beverages,Chips,3,151,Credit Card,8,2024-01-15 08:00:00,453
+346,1674,Bangalore,Vegetables,Bread,2,173,UPI,49,2024-01-15 09:00:00,346
+347,1441,Chennai,Snacks,Soap,4,67,Credit Card,55,2024-01-15 10:00:00,268
+348,1362,Pune,Snacks,Soap,5,224,Debit Card,47,2024-01-15 11:00:00,1120
+349,1433,Pune,Dairy,Soap,2,131,Debit Card,20,2024-01-15 12:00:00,262
+350,1420,Bangalore,Dairy,Chips,2,59,UPI,21,2024-01-15 13:00:00,118
+351,1478,Bangalore,Vegetables,Tomato,2,186,Credit Card,40,2024-01-15 14:00:00,372
+352,1884,Delhi,Dairy,Chips,2,267,Debit Card,29,2024-01-15 15:00:00,534
+353,1746,Bangalore,Fruits,Milk,5,108,UPI,24,2024-01-15 16:00:00,540
+354,1055,Delhi,Personal Care,Banana,3,269,Debit Card,45,2024-01-15 17:00:00,807
+355,1689,Bangalore,Dairy,Chips,2,68,UPI,49,2024-01-15 18:00:00,136
+356,1669,Mumbai,Personal Care,Soap,1,173,Credit Card,28,2024-01-15 19:00:00,173
+357,1661,Mumbai,Fruits,Shampoo,2,39,Credit Card,56,2024-01-15 20:00:00,78
+358,1100,Delhi,Dairy,Apple,5,215,UPI,48,2024-01-15 21:00:00,1075
+359,1062,Mumbai,Dairy,Onion,1,60,UPI,12,2024-01-15 22:00:00,60
+360,1412,Pune,Vegetables,Juice,5,48,Cash,39,2024-01-15 23:00:00,240
+361,1745,Delhi,Vegetables,Milk,4,191,Debit Card,60,2024-01-16 00:00:00,764
+362,1347,Delhi,Snacks,Banana,5,198,Credit Card,20,2024-01-16 01:00:00,990
+363,1819,Hyderabad,Snacks,Shampoo,1,242,Cash,59,2024-01-16 02:00:00,242
+364,1882,Mumbai,Vegetables,Chips,3,233,UPI,33,2024-01-16 03:00:00,699
+365,1111,Pune,Dairy,Shampoo,1,81,Credit Card,29,2024-01-16 04:00:00,81
+366,1254,Mumbai,Vegetables,Banana,3,136,Credit Card,5,2024-01-16 05:00:00,408
+367,1196,Hyderabad,Beverages,Juice,1,25,Cash,30,2024-01-16 06:00:00,25
+368,1194,Delhi,Dairy,Banana,2,215,Debit Card,21,2024-01-16 07:00:00,430
+369,1549,Hyderabad,Fruits,Apple,5,47,UPI,24,2024-01-16 08:00:00,235
+370,1459,Mumbai,Beverages,Milk,4,176,UPI,10,2024-01-16 09:00:00,704
+371,1143,Pune,Personal Care,Juice,3,288,UPI,57,2024-01-16 10:00:00,864
+372,1432,Chennai,Personal Care,Milk,3,41,UPI,53,2024-01-16 11:00:00,123
+373,1187,Mumbai,Beverages,Tomato,2,183,Cash,20,2024-01-16 12:00:00,366
+374,1285,Delhi,Beverages,Apple,2,296,Debit Card,24,2024-01-16 13:00:00,592
+375,1473,Hyderabad,Snacks,Tomato,1,96,UPI,18,2024-01-16 14:00:00,96
+376,1255,Bangalore,Personal Care,Chips,3,187,Cash,60,2024-01-16 15:00:00,561
+377,1895,Chennai,Dairy,Banana,5,277,UPI,15,2024-01-16 16:00:00,1385
+378,1945,Chennai,Vegetables,Juice,1,133,UPI,33,2024-01-16 17:00:00,133
+379,1077,Delhi,Personal Care,Apple,2,98,Credit Card,45,2024-01-16 18:00:00,196
+380,1453,Chennai,Dairy,Bread,3,45,UPI,25,2024-01-16 19:00:00,135
+381,1827,Pune,Dairy,Apple,4,221,Debit Card,56,2024-01-16 20:00:00,884
+382,1882,Mumbai,Personal Care,Apple,4,248,Credit Card,54,2024-01-16 21:00:00,992
+383,1876,Delhi,Dairy,Juice,3,278,Cash,46,2024-01-16 22:00:00,834
+384,1563,Chennai,Beverages,Shampoo,5,66,UPI,31,2024-01-16 23:00:00,330
+385,1100,Chennai,Personal Care,Shampoo,3,133,Debit Card,55,2024-01-17 00:00:00,399
+386,1051,Bangalore,Beverages,Shampoo,5,241,UPI,7,2024-01-17 01:00:00,1205
+387,1667,Mumbai,Beverages,Onion,2,168,UPI,22,2024-01-17 02:00:00,336
+388,1553,Mumbai,Beverages,Juice,5,221,Debit Card,60,2024-01-17 03:00:00,1105
+389,1856,Delhi,Beverages,Onion,5,95,Credit Card,10,2024-01-17 04:00:00,475
+390,1015,Pune,Beverages,Banana,3,87,Credit Card,57,2024-01-17 05:00:00,261
+391,1992,Bangalore,Snacks,Onion,3,192,Cash,54,2024-01-17 06:00:00,576
+392,1095,Pune,Beverages,Onion,4,62,Credit Card,36,2024-01-17 07:00:00,248
+393,1948,Mumbai,Snacks,Bread,2,263,Debit Card,35,2024-01-17 08:00:00,526
+394,1771,Bangalore,Snacks,Apple,1,45,Cash,52,2024-01-17 09:00:00,45
+395,1869,Chennai,Dairy,Banana,3,300,UPI,31,2024-01-17 10:00:00,900
+396,1242,Pune,Personal Care,Shampoo,2,224,UPI,58,2024-01-17 11:00:00,448
+397,1170,Chennai,Fruits,Banana,2,154,Cash,26,2024-01-17 12:00:00,308
+398,1416,Chennai,Beverages,Juice,4,63,Cash,50,2024-01-17 13:00:00,252
+399,1497,Pune,Personal Care,Shampoo,3,224,UPI,32,2024-01-17 14:00:00,672
+400,1492,Pune,Vegetables,Banana,3,276,UPI,57,2024-01-17 15:00:00,828
+401,1218,Chennai,Snacks,Juice,2,242,Credit Card,11,2024-01-17 16:00:00,484
+402,1885,Pune,Fruits,Bread,3,86,Credit Card,57,2024-01-17 17:00:00,258
+403,1410,Delhi,Personal Care,Onion,4,89,Credit Card,15,2024-01-17 18:00:00,356
+404,1924,Pune,Dairy,Tomato,4,266,Credit Card,49,2024-01-17 19:00:00,1064
+405,1060,Delhi,Beverages,Tomato,4,121,UPI,21,2024-01-17 20:00:00,484
+406,1168,Delhi,Beverages,Onion,3,269,Debit Card,37,2024-01-17 21:00:00,807
+407,1388,Delhi,Dairy,Juice,3,222,Cash,9,2024-01-17 22:00:00,666
+408,1002,Pune,Personal Care,Bread,4,120,Cash,27,2024-01-17 23:00:00,480
+409,1399,Pune,Dairy,Milk,5,288,Credit Card,31,2024-01-18 00:00:00,1440
+410,1271,Pune,Fruits,Milk,1,146,UPI,43,2024-01-18 01:00:00,146
+411,1948,Bangalore,Fruits,Soap,2,144,Debit Card,51,2024-01-18 02:00:00,288
+412,1802,Bangalore,Dairy,Milk,5,56,Debit Card,57,2024-01-18 03:00:00,280
+413,1803,Hyderabad,Snacks,Chips,1,156,Credit Card,40,2024-01-18 04:00:00,156
+414,1465,Bangalore,Snacks,Banana,3,240,Debit Card,52,2024-01-18 05:00:00,720
+415,1292,Pune,Beverages,Soap,2,185,Debit Card,25,2024-01-18 06:00:00,370
+416,1433,Bangalore,Vegetables,Tomato,5,65,Credit Card,34,2024-01-18 07:00:00,325
+417,1713,Mumbai,Fruits,Banana,2,77,Cash,49,2024-01-18 08:00:00,154
+418,1980,Bangalore,Vegetables,Bread,3,231,Credit Card,6,2024-01-18 09:00:00,693
+419,1748,Chennai,Fruits,Tomato,1,236,UPI,53,2024-01-18 10:00:00,236
+420,1802,Delhi,Vegetables,Tomato,1,207,UPI,8,2024-01-18 11:00:00,207
+421,1569,Mumbai,Fruits,Milk,1,198,UPI,46,2024-01-18 12:00:00,198
+422,1677,Delhi,Dairy,Bread,5,117,UPI,46,2024-01-18 13:00:00,585
+423,1735,Pune,Beverages,Shampoo,1,184,Debit Card,16,2024-01-18 14:00:00,184
+424,1498,Chennai,Snacks,Bread,5,196,Debit Card,45,2024-01-18 15:00:00,980
+425,1158,Mumbai,Fruits,Bread,5,32,Cash,33,2024-01-18 16:00:00,160
+426,1194,Hyderabad,Personal Care,Juice,4,176,UPI,55,2024-01-18 17:00:00,704
+427,1303,Delhi,Personal Care,Banana,5,106,Debit Card,46,2024-01-18 18:00:00,530
+428,1222,Bangalore,Dairy,Milk,2,199,UPI,13,2024-01-18 19:00:00,398
+429,1991,Chennai,Vegetables,Shampoo,1,246,Cash,5,2024-01-18 20:00:00,246
+430,1059,Chennai,Vegetables,Soap,5,94,UPI,30,2024-01-18 21:00:00,470
+431,1593,Chennai,Fruits,Juice,3,245,Cash,17,2024-01-18 22:00:00,735
+432,1753,Delhi,Snacks,Banana,5,42,Credit Card,45,2024-01-18 23:00:00,210
+433,1555,Chennai,Beverages,Banana,5,139,Debit Card,24,2024-01-19 00:00:00,695
+434,1062,Pune,Personal Care,Onion,4,122,Cash,25,2024-01-19 01:00:00,488
+435,1765,Mumbai,Dairy,Shampoo,2,211,UPI,41,2024-01-19 02:00:00,422
+436,1321,Bangalore,Personal Care,Chips,3,99,UPI,10,2024-01-19 03:00:00,297
+437,1058,Pune,Dairy,Soap,4,63,Credit Card,12,2024-01-19 04:00:00,252
+438,1051,Delhi,Personal Care,Chips,2,77,UPI,15,2024-01-19 05:00:00,154
+439,1598,Pune,Dairy,Banana,5,47,UPI,20,2024-01-19 06:00:00,235
+440,1488,Pune,Fruits,Shampoo,3,144,Credit Card,38,2024-01-19 07:00:00,432
+441,1514,Mumbai,Personal Care,Juice,2,95,UPI,50,2024-01-19 08:00:00,190
+442,1941,Chennai,Personal Care,Tomato,4,167,UPI,54,2024-01-19 09:00:00,668
+443,1873,Hyderabad,Fruits,Soap,5,27,Cash,58,2024-01-19 10:00:00,135
+444,1543,Bangalore,Personal Care,Banana,5,195,Credit Card,46,2024-01-19 11:00:00,975
+445,1161,Mumbai,Fruits,Soap,1,76,Cash,53,2024-01-19 12:00:00,76
+446,1058,Delhi,Personal Care,Tomato,4,176,Credit Card,13,2024-01-19 13:00:00,704
+447,1983,Bangalore,Dairy,Banana,3,250,Debit Card,59,2024-01-19 14:00:00,750
+448,1520,Mumbai,Fruits,Shampoo,5,261,UPI,43,2024-01-19 15:00:00,1305
+449,1082,Pune,Personal Care,Apple,1,31,UPI,48,2024-01-19 16:00:00,31
+450,1871,Delhi,Personal Care,Bread,2,189,UPI,31,2024-01-19 17:00:00,378
+451,1190,Mumbai,Beverages,Milk,5,127,UPI,55,2024-01-19 18:00:00,635
+452,1070,Hyderabad,Personal Care,Shampoo,2,295,Cash,25,2024-01-19 19:00:00,590
+453,1609,Mumbai,Dairy,Juice,5,128,UPI,33,2024-01-19 20:00:00,640
+454,1069,Pune,Beverages,Tomato,2,124,Debit Card,35,2024-01-19 21:00:00,248
+455,1691,Mumbai,Dairy,Shampoo,4,299,UPI,60,2024-01-19 22:00:00,1196
+456,1882,Hyderabad,Dairy,Juice,2,287,Credit Card,52,2024-01-19 23:00:00,574
+457,1240,Chennai,Vegetables,Bread,2,152,UPI,13,2024-01-20 00:00:00,304
+458,1413,Delhi,Dairy,Banana,5,300,Cash,21,2024-01-20 01:00:00,1500
+459,1122,Hyderabad,Fruits,Tomato,5,267,UPI,16,2024-01-20 02:00:00,1335
+460,1964,Hyderabad,Vegetables,Soap,2,92,Credit Card,48,2024-01-20 03:00:00,184
+461,1911,Hyderabad,Personal Care,Soap,4,29,UPI,42,2024-01-20 04:00:00,116
+462,1583,Mumbai,Beverages,Bread,3,212,Cash,57,2024-01-20 05:00:00,636
+463,1252,Pune,Fruits,Chips,1,289,Cash,25,2024-01-20 06:00:00,289
+464,1592,Hyderabad,Snacks,Banana,2,42,UPI,56,2024-01-20 07:00:00,84
+465,1608,Bangalore,Snacks,Milk,4,150,Cash,23,2024-01-20 08:00:00,600
+466,1040,Bangalore,Personal Care,Banana,2,107,Cash,17,2024-01-20 09:00:00,214
+467,1634,Bangalore,Personal Care,Banana,1,50,Cash,10,2024-01-20 10:00:00,50
+468,1083,Chennai,Vegetables,Soap,3,165,UPI,31,2024-01-20 11:00:00,495
+469,1429,Bangalore,Fruits,Onion,3,122,Credit Card,28,2024-01-20 12:00:00,366
+470,1673,Delhi,Snacks,Tomato,2,158,Cash,16,2024-01-20 13:00:00,316
+471,1597,Hyderabad,Dairy,Soap,1,47,UPI,30,2024-01-20 14:00:00,47
+472,1578,Mumbai,Beverages,Shampoo,2,258,Cash,29,2024-01-20 15:00:00,516
+473,1535,Mumbai,Personal Care,Banana,5,24,Cash,58,2024-01-20 16:00:00,120
+474,1323,Chennai,Vegetables,Milk,3,54,Debit Card,41,2024-01-20 17:00:00,162
+475,1957,Pune,Fruits,Apple,4,218,UPI,19,2024-01-20 18:00:00,872
+476,1267,Hyderabad,Dairy,Soap,4,158,Cash,6,2024-01-20 19:00:00,632
+477,1209,Hyderabad,Snacks,Banana,4,204,UPI,6,2024-01-20 20:00:00,816
+478,1685,Pune,Beverages,Shampoo,1,75,Debit Card,40,2024-01-20 21:00:00,75
+479,1733,Chennai,Beverages,Shampoo,1,29,Debit Card,46,2024-01-20 22:00:00,29
+480,1321,Hyderabad,Fruits,Milk,3,169,Debit Card,44,2024-01-20 23:00:00,507
+481,1244,Chennai,Personal Care,Chips,1,217,Credit Card,45,2024-01-21 00:00:00,217
+482,1271,Hyderabad,Vegetables,Chips,5,138,Credit Card,19,2024-01-21 01:00:00,690
+483,1405,Chennai,Personal Care,Bread,3,214,UPI,10,2024-01-21 02:00:00,642
+484,1134,Delhi,Snacks,Chips,3,280,Cash,34,2024-01-21 03:00:00,840
+485,1687,Pune,Snacks,Tomato,5,70,Credit Card,17,2024-01-21 04:00:00,350
+486,1660,Delhi,Beverages,Banana,5,181,Debit Card,21,2024-01-21 05:00:00,905
+487,1307,Mumbai,Beverages,Banana,5,268,UPI,49,2024-01-21 06:00:00,1340
+488,1468,Delhi,Vegetables,Tomato,2,292,Cash,59,2024-01-21 07:00:00,584
+489,1323,Mumbai,Personal Care,Shampoo,4,65,Cash,15,2024-01-21 08:00:00,260
+490,1951,Chennai,Personal Care,Juice,4,115,UPI,8,2024-01-21 09:00:00,460
+491,1769,Mumbai,Snacks,Shampoo,3,121,Cash,30,2024-01-21 10:00:00,363
+492,1958,Chennai,Dairy,Apple,5,276,Debit Card,44,2024-01-21 11:00:00,1380
+493,1074,Hyderabad,Vegetables,Chips,1,254,UPI,32,2024-01-21 12:00:00,254
+494,1009,Bangalore,Snacks,Shampoo,5,31,Cash,43,2024-01-21 13:00:00,155
+495,1469,Delhi,Snacks,Milk,3,40,UPI,21,2024-01-21 14:00:00,120
+496,1636,Chennai,Beverages,Milk,4,146,Debit Card,14,2024-01-21 15:00:00,584
+497,1576,Chennai,Vegetables,Apple,2,291,Debit Card,10,2024-01-21 16:00:00,582
+498,1102,Pune,Beverages,Bread,5,176,Debit Card,28,2024-01-21 17:00:00,880
+499,1075,Bangalore,Snacks,Banana,4,190,Debit Card,15,2024-01-21 18:00:00,760
+500,1550,Delhi,Fruits,Tomato,3,270,Cash,41,2024-01-21 19:00:00,810
+501,1218,Hyderabad,Dairy,Bread,3,221,UPI,12,2024-01-21 20:00:00,663
+502,1518,Chennai,Snacks,Milk,4,100,Debit Card,5,2024-01-21 21:00:00,400
+503,1271,Bangalore,Dairy,Onion,4,29,Credit Card,50,2024-01-21 22:00:00,116
+504,1135,Mumbai,Snacks,Onion,5,197,Credit Card,38,2024-01-21 23:00:00,985
+505,1955,Chennai,Beverages,Banana,1,200,Cash,32,2024-01-22 00:00:00,200
+506,1357,Pune,Dairy,Onion,5,201,Cash,54,2024-01-22 01:00:00,1005
+507,1902,Delhi,Vegetables,Tomato,2,174,Debit Card,34,2024-01-22 02:00:00,348
+508,1070,Pune,Vegetables,Shampoo,4,140,Credit Card,57,2024-01-22 03:00:00,560
+509,1900,Hyderabad,Snacks,Chips,2,276,UPI,48,2024-01-22 04:00:00,552
+510,1250,Hyderabad,Vegetables,Soap,2,161,Cash,36,2024-01-22 05:00:00,322
+511,1378,Pune,Vegetables,Soap,1,51,UPI,12,2024-01-22 06:00:00,51
+512,1291,Delhi,Personal Care,Chips,5,151,Debit Card,19,2024-01-22 07:00:00,755
+513,1161,Pune,Fruits,Milk,3,218,Credit Card,50,2024-01-22 08:00:00,654
+514,1448,Pune,Dairy,Banana,2,35,Cash,18,2024-01-22 09:00:00,70
+515,1853,Hyderabad,Fruits,Onion,2,163,UPI,17,2024-01-22 10:00:00,326
+516,1556,Delhi,Dairy,Chips,2,135,Cash,60,2024-01-22 11:00:00,270
+517,1720,Chennai,Dairy,Juice,2,97,UPI,57,2024-01-22 12:00:00,194
+518,1309,Chennai,Snacks,Onion,3,194,Debit Card,55,2024-01-22 13:00:00,582
+519,1626,Hyderabad,Dairy,Juice,5,221,UPI,22,2024-01-22 14:00:00,1105
+520,1826,Pune,Vegetables,Soap,1,90,Credit Card,23,2024-01-22 15:00:00,90
+521,1669,Bangalore,Vegetables,Apple,2,64,UPI,52,2024-01-22 16:00:00,128
+522,1541,Chennai,Fruits,Milk,4,215,Cash,36,2024-01-22 17:00:00,860
+523,1008,Bangalore,Dairy,Banana,3,286,Credit Card,29,2024-01-22 18:00:00,858
+524,1683,Mumbai,Dairy,Juice,1,136,Credit Card,13,2024-01-22 19:00:00,136
+525,1836,Pune,Snacks,Chips,4,233,Debit Card,32,2024-01-22 20:00:00,932
+526,1567,Hyderabad,Beverages,Milk,4,143,Cash,59,2024-01-22 21:00:00,572
+527,1306,Bangalore,Fruits,Milk,4,98,UPI,18,2024-01-22 22:00:00,392
+528,1954,Delhi,Dairy,Milk,2,238,Credit Card,43,2024-01-22 23:00:00,476
+529,1679,Bangalore,Snacks,Tomato,5,179,UPI,18,2024-01-23 00:00:00,895
+530,1106,Mumbai,Fruits,Soap,2,188,Debit Card,57,2024-01-23 01:00:00,376
+531,1961,Bangalore,Fruits,Chips,4,249,Credit Card,23,2024-01-23 02:00:00,996
+532,1899,Bangalore,Beverages,Milk,1,297,Credit Card,51,2024-01-23 03:00:00,297
+533,1137,Mumbai,Snacks,Apple,2,87,UPI,48,2024-01-23 04:00:00,174
+534,1270,Mumbai,Beverages,Soap,1,125,Credit Card,17,2024-01-23 05:00:00,125
+535,1118,Hyderabad,Vegetables,Onion,2,90,Cash,31,2024-01-23 06:00:00,180
+536,1911,Mumbai,Vegetables,Chips,5,297,Credit Card,16,2024-01-23 07:00:00,1485
+537,1109,Delhi,Personal Care,Bread,5,123,Credit Card,31,2024-01-23 08:00:00,615
+538,1760,Hyderabad,Vegetables,Shampoo,2,90,Cash,55,2024-01-23 09:00:00,180
+539,1566,Pune,Personal Care,Chips,2,178,Debit Card,14,2024-01-23 10:00:00,356
+540,1159,Chennai,Vegetables,Tomato,5,288,Credit Card,6,2024-01-23 11:00:00,1440
+541,1278,Hyderabad,Vegetables,Apple,1,89,Credit Card,23,2024-01-23 12:00:00,89
+542,1288,Delhi,Beverages,Soap,5,240,Credit Card,21,2024-01-23 13:00:00,1200
+543,1619,Hyderabad,Beverages,Banana,2,94,UPI,20,2024-01-23 14:00:00,188
+544,1215,Bangalore,Beverages,Banana,1,100,Credit Card,44,2024-01-23 15:00:00,100
+545,1734,Chennai,Personal Care,Banana,2,182,Credit Card,33,2024-01-23 16:00:00,364
+546,1351,Chennai,Beverages,Bread,3,54,Cash,20,2024-01-23 17:00:00,162
+547,1208,Mumbai,Beverages,Milk,2,292,Debit Card,28,2024-01-23 18:00:00,584
+548,1703,Bangalore,Dairy,Chips,5,80,Credit Card,42,2024-01-23 19:00:00,400
+549,1649,Pune,Vegetables,Apple,4,114,Debit Card,48,2024-01-23 20:00:00,456
+550,1873,Mumbai,Vegetables,Tomato,5,182,Cash,46,2024-01-23 21:00:00,910
+551,1270,Chennai,Vegetables,Juice,5,94,UPI,34,2024-01-23 22:00:00,470
+552,1517,Delhi,Dairy,Bread,1,35,Cash,10,2024-01-23 23:00:00,35
+553,1500,Bangalore,Snacks,Soap,3,183,Cash,5,2024-01-24 00:00:00,549
+554,1257,Bangalore,Vegetables,Milk,1,231,UPI,35,2024-01-24 01:00:00,231
+555,1927,Hyderabad,Dairy,Soap,2,230,Cash,13,2024-01-24 02:00:00,460
+556,1929,Hyderabad,Personal Care,Tomato,4,175,Credit Card,60,2024-01-24 03:00:00,700
+557,1866,Pune,Dairy,Chips,5,246,Credit Card,25,2024-01-24 04:00:00,1230
+558,1052,Mumbai,Beverages,Shampoo,4,160,Credit Card,49,2024-01-24 05:00:00,640
+559,1094,Hyderabad,Beverages,Apple,4,97,Debit Card,30,2024-01-24 06:00:00,388
+560,1649,Delhi,Beverages,Milk,2,116,UPI,48,2024-01-24 07:00:00,232
+561,1433,Hyderabad,Vegetables,Banana,2,74,Cash,18,2024-01-24 08:00:00,148
+562,1849,Mumbai,Vegetables,Juice,4,87,Credit Card,50,2024-01-24 09:00:00,348
+563,1283,Pune,Vegetables,Onion,5,114,Credit Card,29,2024-01-24 10:00:00,570
+564,1045,Bangalore,Fruits,Soap,2,33,Credit Card,50,2024-01-24 11:00:00,66
+565,1003,Hyderabad,Personal Care,Onion,5,156,Debit Card,32,2024-01-24 12:00:00,780
+566,1341,Chennai,Beverages,Juice,2,138,Debit Card,52,2024-01-24 13:00:00,276
+567,1789,Hyderabad,Fruits,Apple,5,138,Credit Card,43,2024-01-24 14:00:00,690
+568,1133,Chennai,Snacks,Apple,5,138,Debit Card,21,2024-01-24 15:00:00,690
+569,1652,Mumbai,Snacks,Banana,3,33,Debit Card,9,2024-01-24 16:00:00,99
+570,1268,Chennai,Beverages,Tomato,2,203,Cash,11,2024-01-24 17:00:00,406
+571,1165,Mumbai,Vegetables,Milk,3,60,Debit Card,40,2024-01-24 18:00:00,180
+572,1759,Pune,Vegetables,Juice,4,264,Credit Card,8,2024-01-24 19:00:00,1056
+573,1452,Mumbai,Vegetables,Juice,5,88,Cash,8,2024-01-24 20:00:00,440
+574,1564,Pune,Snacks,Juice,5,277,UPI,26,2024-01-24 21:00:00,1385
+575,1722,Delhi,Vegetables,Onion,1,260,Cash,20,2024-01-24 22:00:00,260
+576,1437,Delhi,Snacks,Bread,2,211,Cash,35,2024-01-24 23:00:00,422
+577,1574,Delhi,Personal Care,Onion,4,114,Credit Card,27,2024-01-25 00:00:00,456
+578,1009,Chennai,Dairy,Chips,4,218,Debit Card,43,2024-01-25 01:00:00,872
+579,1114,Pune,Beverages,Onion,2,271,Cash,47,2024-01-25 02:00:00,542
+580,1077,Mumbai,Dairy,Bread,1,262,Credit Card,56,2024-01-25 03:00:00,262
+581,1967,Bangalore,Beverages,Apple,1,90,Debit Card,43,2024-01-25 04:00:00,90
+582,1904,Bangalore,Beverages,Bread,2,103,Debit Card,50,2024-01-25 05:00:00,206
+583,1707,Mumbai,Dairy,Milk,5,118,Cash,52,2024-01-25 06:00:00,590
+584,1925,Pune,Beverages,Milk,5,135,Cash,56,2024-01-25 07:00:00,675
+585,1152,Mumbai,Dairy,Soap,4,36,Credit Card,7,2024-01-25 08:00:00,144
+586,1558,Bangalore,Fruits,Apple,2,229,Credit Card,5,2024-01-25 09:00:00,458
+587,1036,Bangalore,Snacks,Tomato,5,27,Debit Card,21,2024-01-25 10:00:00,135
+588,1854,Chennai,Vegetables,Bread,1,158,Debit Card,37,2024-01-25 11:00:00,158
+589,1378,Hyderabad,Personal Care,Juice,2,231,UPI,44,2024-01-25 12:00:00,462
+590,1596,Pune,Personal Care,Banana,4,133,Debit Card,29,2024-01-25 13:00:00,532
+591,1565,Mumbai,Personal Care,Shampoo,5,123,UPI,24,2024-01-25 14:00:00,615
+592,1151,Chennai,Snacks,Tomato,5,124,Cash,30,2024-01-25 15:00:00,620
+593,1440,Chennai,Personal Care,Milk,1,53,UPI,47,2024-01-25 16:00:00,53
+594,1130,Mumbai,Fruits,Juice,5,110,Debit Card,28,2024-01-25 17:00:00,550
+595,1042,Chennai,Beverages,Juice,5,244,UPI,13,2024-01-25 18:00:00,1220
+596,1315,Bangalore,Fruits,Tomato,1,270,UPI,40,2024-01-25 19:00:00,270
+597,1373,Delhi,Fruits,Juice,1,186,UPI,7,2024-01-25 20:00:00,186
+598,1920,Delhi,Fruits,Onion,4,254,UPI,42,2024-01-25 21:00:00,1016
+599,1955,Bangalore,Snacks,Milk,2,146,UPI,16,2024-01-25 22:00:00,292
+600,1815,Hyderabad,Fruits,Shampoo,5,238,UPI,21,2024-01-25 23:00:00,1190
+601,1995,Bangalore,Fruits,Juice,5,227,Debit Card,15,2024-01-26 00:00:00,1135
+602,1881,Mumbai,Vegetables,Shampoo,1,41,UPI,37,2024-01-26 01:00:00,41
+603,1040,Chennai,Dairy,Bread,4,214,Cash,36,2024-01-26 02:00:00,856
+604,1920,Mumbai,Fruits,Bread,5,180,Credit Card,26,2024-01-26 03:00:00,900
+605,1366,Hyderabad,Snacks,Juice,4,221,Debit Card,34,2024-01-26 04:00:00,884
+606,1215,Bangalore,Personal Care,Juice,3,294,Cash,13,2024-01-26 05:00:00,882
+607,1698,Delhi,Personal Care,Onion,1,288,Cash,10,2024-01-26 06:00:00,288
+608,1255,Delhi,Snacks,Bread,5,39,Credit Card,25,2024-01-26 07:00:00,195
+609,1682,Mumbai,Fruits,Bread,4,286,UPI,50,2024-01-26 08:00:00,1144
+610,1105,Hyderabad,Snacks,Shampoo,2,75,UPI,38,2024-01-26 09:00:00,150
+611,1362,Pune,Dairy,Shampoo,4,251,UPI,32,2024-01-26 10:00:00,1004
+612,1798,Hyderabad,Fruits,Tomato,4,253,Debit Card,14,2024-01-26 11:00:00,1012
+613,1573,Pune,Beverages,Tomato,3,41,Debit Card,21,2024-01-26 12:00:00,123
+614,1905,Hyderabad,Snacks,Tomato,5,145,Credit Card,12,2024-01-26 13:00:00,725
+615,1895,Hyderabad,Vegetables,Apple,5,285,Cash,25,2024-01-26 14:00:00,1425
+616,1416,Hyderabad,Snacks,Soap,1,295,Credit Card,7,2024-01-26 15:00:00,295
+617,1997,Pune,Beverages,Juice,4,222,Credit Card,13,2024-01-26 16:00:00,888
+618,1635,Bangalore,Dairy,Chips,2,40,Debit Card,36,2024-01-26 17:00:00,80
+619,1767,Delhi,Personal Care,Bread,3,218,Cash,60,2024-01-26 18:00:00,654
+620,1158,Pune,Vegetables,Chips,4,284,Credit Card,58,2024-01-26 19:00:00,1136
+621,1947,Chennai,Personal Care,Soap,2,45,Credit Card,22,2024-01-26 20:00:00,90
+622,1952,Mumbai,Snacks,Soap,1,117,Credit Card,52,2024-01-26 21:00:00,117
+623,1242,Delhi,Vegetables,Chips,3,169,Cash,28,2024-01-26 22:00:00,507
+624,1885,Bangalore,Snacks,Banana,5,245,Credit Card,32,2024-01-26 23:00:00,1225
+625,1166,Hyderabad,Vegetables,Tomato,5,223,Debit Card,23,2024-01-27 00:00:00,1115
+626,1999,Bangalore,Dairy,Soap,4,175,Cash,21,2024-01-27 01:00:00,700
+627,1819,Pune,Beverages,Milk,3,166,Debit Card,44,2024-01-27 02:00:00,498
+628,1830,Chennai,Fruits,Chips,2,256,UPI,58,2024-01-27 03:00:00,512
+629,1181,Bangalore,Personal Care,Apple,1,105,Cash,53,2024-01-27 04:00:00,105
+630,1902,Hyderabad,Dairy,Banana,1,236,Cash,21,2024-01-27 05:00:00,236
+631,1422,Mumbai,Vegetables,Banana,5,170,Debit Card,38,2024-01-27 06:00:00,850
+632,1025,Mumbai,Beverages,Shampoo,5,47,UPI,25,2024-01-27 07:00:00,235
+633,1183,Bangalore,Vegetables,Banana,1,284,Cash,32,2024-01-27 08:00:00,284
+634,1754,Delhi,Beverages,Tomato,5,92,Debit Card,15,2024-01-27 09:00:00,460
+635,1946,Delhi,Fruits,Tomato,1,257,Credit Card,25,2024-01-27 10:00:00,257
+636,1340,Chennai,Personal Care,Soap,4,251,UPI,52,2024-01-27 11:00:00,1004
+637,1801,Hyderabad,Snacks,Onion,2,66,Credit Card,36,2024-01-27 12:00:00,132
+638,1953,Chennai,Fruits,Apple,3,276,UPI,53,2024-01-27 13:00:00,828
+639,1421,Bangalore,Dairy,Banana,4,77,UPI,14,2024-01-27 14:00:00,308
+640,1821,Pune,Dairy,Shampoo,3,112,Credit Card,40,2024-01-27 15:00:00,336
+641,1685,Bangalore,Dairy,Shampoo,1,299,Debit Card,59,2024-01-27 16:00:00,299
+642,1884,Bangalore,Snacks,Banana,2,89,Debit Card,47,2024-01-27 17:00:00,178
+643,1752,Mumbai,Beverages,Shampoo,4,221,UPI,45,2024-01-27 18:00:00,884
+644,1830,Mumbai,Fruits,Soap,5,231,UPI,56,2024-01-27 19:00:00,1155
+645,1254,Hyderabad,Personal Care,Milk,3,185,Debit Card,33,2024-01-27 20:00:00,555
+646,1273,Mumbai,Snacks,Chips,3,250,Credit Card,8,2024-01-27 21:00:00,750
+647,1163,Delhi,Vegetables,Onion,5,32,Cash,17,2024-01-27 22:00:00,160
+648,1806,Hyderabad,Personal Care,Chips,4,111,Cash,14,2024-01-27 23:00:00,444
+649,1718,Mumbai,Personal Care,Chips,5,252,UPI,8,2024-01-28 00:00:00,1260
+650,1110,Bangalore,Personal Care,Juice,3,123,Credit Card,19,2024-01-28 01:00:00,369
+651,1391,Pune,Personal Care,Banana,5,252,Credit Card,16,2024-01-28 02:00:00,1260
+652,1893,Hyderabad,Vegetables,Milk,3,66,Debit Card,7,2024-01-28 03:00:00,198
+653,1039,Hyderabad,Personal Care,Shampoo,4,148,UPI,35,2024-01-28 04:00:00,592
+654,1879,Delhi,Beverages,Milk,2,185,Cash,21,2024-01-28 05:00:00,370
+655,1481,Delhi,Snacks,Shampoo,4,103,Debit Card,15,2024-01-28 06:00:00,412
+656,1227,Chennai,Vegetables,Chips,5,83,Credit Card,50,2024-01-28 07:00:00,415
+657,1204,Bangalore,Personal Care,Shampoo,5,66,UPI,34,2024-01-28 08:00:00,330
+658,1836,Delhi,Beverages,Juice,4,78,UPI,32,2024-01-28 09:00:00,312
+659,1940,Chennai,Vegetables,Juice,2,250,Debit Card,12,2024-01-28 10:00:00,500
+660,1471,Pune,Snacks,Bread,3,205,Debit Card,36,2024-01-28 11:00:00,615
+661,1358,Pune,Snacks,Tomato,5,63,Debit Card,7,2024-01-28 12:00:00,315
+662,1312,Delhi,Vegetables,Apple,5,288,Debit Card,33,2024-01-28 13:00:00,1440
+663,1840,Bangalore,Personal Care,Milk,4,216,UPI,27,2024-01-28 14:00:00,864
+664,1814,Mumbai,Fruits,Milk,3,281,Debit Card,50,2024-01-28 15:00:00,843
+665,1892,Mumbai,Vegetables,Milk,3,101,Credit Card,40,2024-01-28 16:00:00,303
+666,1233,Bangalore,Fruits,Banana,5,213,Credit Card,36,2024-01-28 17:00:00,1065
+667,1228,Hyderabad,Beverages,Bread,3,214,Credit Card,34,2024-01-28 18:00:00,642
+668,1024,Delhi,Beverages,Banana,4,42,Cash,36,2024-01-28 19:00:00,168
+669,1675,Hyderabad,Personal Care,Chips,2,107,Debit Card,12,2024-01-28 20:00:00,214
+670,1197,Pune,Vegetables,Banana,1,191,Debit Card,59,2024-01-28 21:00:00,191
+671,1408,Mumbai,Snacks,Onion,2,96,Debit Card,51,2024-01-28 22:00:00,192
+672,1336,Mumbai,Snacks,Soap,4,103,Debit Card,60,2024-01-28 23:00:00,412
+673,1285,Pune,Personal Care,Apple,2,94,Credit Card,14,2024-01-29 00:00:00,188
+674,1885,Mumbai,Beverages,Chips,1,111,Debit Card,12,2024-01-29 01:00:00,111
+675,1071,Mumbai,Snacks,Chips,2,46,Credit Card,27,2024-01-29 02:00:00,92
+676,1990,Bangalore,Dairy,Onion,5,234,Debit Card,10,2024-01-29 03:00:00,1170
+677,1791,Delhi,Beverages,Chips,4,177,Cash,18,2024-01-29 04:00:00,708
+678,1285,Mumbai,Beverages,Juice,3,178,UPI,60,2024-01-29 05:00:00,534
+679,1359,Mumbai,Beverages,Banana,5,248,Cash,23,2024-01-29 06:00:00,1240
+680,1656,Hyderabad,Fruits,Tomato,5,167,UPI,16,2024-01-29 07:00:00,835
+681,1521,Delhi,Beverages,Apple,1,112,Credit Card,58,2024-01-29 08:00:00,112
+682,1409,Mumbai,Dairy,Tomato,2,80,UPI,15,2024-01-29 09:00:00,160
+683,1695,Chennai,Fruits,Milk,4,87,UPI,52,2024-01-29 10:00:00,348
+684,1863,Delhi,Vegetables,Milk,1,123,Credit Card,37,2024-01-29 11:00:00,123
+685,1549,Chennai,Fruits,Milk,1,21,UPI,57,2024-01-29 12:00:00,21
+686,1339,Mumbai,Snacks,Tomato,2,149,Cash,22,2024-01-29 13:00:00,298
+687,1961,Pune,Snacks,Shampoo,4,26,Cash,41,2024-01-29 14:00:00,104
+688,1028,Mumbai,Snacks,Apple,5,254,Credit Card,47,2024-01-29 15:00:00,1270
+689,1118,Mumbai,Personal Care,Apple,4,274,UPI,42,2024-01-29 16:00:00,1096
+690,1898,Bangalore,Vegetables,Apple,1,275,Credit Card,18,2024-01-29 17:00:00,275
+691,1993,Mumbai,Snacks,Apple,1,298,Debit Card,42,2024-01-29 18:00:00,298
+692,1267,Mumbai,Beverages,Soap,3,22,Debit Card,5,2024-01-29 19:00:00,66
+693,1182,Bangalore,Dairy,Juice,2,272,UPI,38,2024-01-29 20:00:00,544
+694,1594,Chennai,Vegetables,Tomato,3,141,UPI,54,2024-01-29 21:00:00,423
+695,1985,Pune,Snacks,Onion,1,131,Debit Card,41,2024-01-29 22:00:00,131
+696,1271,Delhi,Dairy,Soap,5,263,Credit Card,16,2024-01-29 23:00:00,1315
+697,1039,Pune,Vegetables,Chips,1,252,Debit Card,31,2024-01-30 00:00:00,252
+698,1111,Bangalore,Snacks,Bread,4,229,Debit Card,9,2024-01-30 01:00:00,916
+699,1610,Hyderabad,Dairy,Bread,4,246,Cash,20,2024-01-30 02:00:00,984
+700,1444,Hyderabad,Beverages,Tomato,5,60,Cash,54,2024-01-30 03:00:00,300
+701,1353,Delhi,Vegetables,Apple,5,23,Credit Card,36,2024-01-30 04:00:00,115
+702,1746,Pune,Vegetables,Soap,3,145,Credit Card,48,2024-01-30 05:00:00,435
+703,1805,Mumbai,Fruits,Onion,5,300,UPI,11,2024-01-30 06:00:00,1500
+704,1321,Chennai,Vegetables,Shampoo,1,162,Credit Card,26,2024-01-30 07:00:00,162
+705,1446,Hyderabad,Dairy,Shampoo,2,126,Cash,6,2024-01-30 08:00:00,252
+706,1620,Bangalore,Beverages,Apple,4,45,Credit Card,23,2024-01-30 09:00:00,180
+707,1523,Bangalore,Fruits,Tomato,4,114,Cash,48,2024-01-30 10:00:00,456
+708,1118,Delhi,Dairy,Tomato,1,95,Cash,48,2024-01-30 11:00:00,95
+709,1394,Delhi,Dairy,Chips,2,48,UPI,12,2024-01-30 12:00:00,96
+710,1921,Bangalore,Fruits,Apple,5,198,Cash,30,2024-01-30 13:00:00,990
+711,1590,Pune,Personal Care,Banana,3,38,Cash,28,2024-01-30 14:00:00,114
+712,1194,Bangalore,Dairy,Juice,2,94,Cash,42,2024-01-30 15:00:00,188
+713,1260,Chennai,Beverages,Soap,1,36,Credit Card,11,2024-01-30 16:00:00,36
+714,1045,Hyderabad,Fruits,Juice,5,172,UPI,58,2024-01-30 17:00:00,860
+715,1725,Mumbai,Fruits,Milk,5,189,Debit Card,25,2024-01-30 18:00:00,945
+716,1446,Hyderabad,Dairy,Onion,5,64,Credit Card,14,2024-01-30 19:00:00,320
+717,1001,Hyderabad,Snacks,Onion,2,45,Cash,6,2024-01-30 20:00:00,90
+718,1532,Pune,Snacks,Tomato,5,75,Cash,10,2024-01-30 21:00:00,375
+719,1947,Chennai,Fruits,Juice,2,233,UPI,34,2024-01-30 22:00:00,466
+720,1825,Hyderabad,Fruits,Juice,1,111,Credit Card,58,2024-01-30 23:00:00,111
+721,1551,Chennai,Snacks,Apple,3,102,Debit Card,50,2024-01-31 00:00:00,306
+722,1703,Delhi,Snacks,Soap,2,165,Credit Card,47,2024-01-31 01:00:00,330
+723,1736,Chennai,Beverages,Chips,1,110,Cash,35,2024-01-31 02:00:00,110
+724,1962,Delhi,Personal Care,Banana,2,253,Debit Card,34,2024-01-31 03:00:00,506
+725,1759,Mumbai,Fruits,Apple,1,204,Credit Card,45,2024-01-31 04:00:00,204
+726,1754,Mumbai,Dairy,Banana,3,38,UPI,22,2024-01-31 05:00:00,114
+727,1686,Hyderabad,Beverages,Apple,4,67,Cash,43,2024-01-31 06:00:00,268
+728,1201,Pune,Beverages,Soap,3,173,Debit Card,47,2024-01-31 07:00:00,519
+729,1372,Hyderabad,Snacks,Onion,4,185,Credit Card,5,2024-01-31 08:00:00,740
+730,1441,Mumbai,Personal Care,Soap,4,208,Cash,26,2024-01-31 09:00:00,832
+731,1071,Bangalore,Vegetables,Bread,5,214,Debit Card,7,2024-01-31 10:00:00,1070
+732,1971,Mumbai,Snacks,Juice,2,54,Credit Card,46,2024-01-31 11:00:00,108
+733,1680,Bangalore,Beverages,Apple,5,238,Cash,44,2024-01-31 12:00:00,1190
+734,1942,Mumbai,Vegetables,Milk,1,53,UPI,33,2024-01-31 13:00:00,53
+735,1338,Delhi,Vegetables,Tomato,1,169,Credit Card,25,2024-01-31 14:00:00,169
+736,1638,Hyderabad,Vegetables,Tomato,1,261,Cash,51,2024-01-31 15:00:00,261
+737,1321,Chennai,Fruits,Chips,5,88,UPI,51,2024-01-31 16:00:00,440
+738,1679,Bangalore,Vegetables,Banana,3,82,Cash,56,2024-01-31 17:00:00,246
+739,1868,Hyderabad,Vegetables,Bread,5,160,Credit Card,41,2024-01-31 18:00:00,800
+740,1127,Mumbai,Vegetables,Milk,5,188,Debit Card,13,2024-01-31 19:00:00,940
+741,1737,Hyderabad,Beverages,Chips,3,289,UPI,18,2024-01-31 20:00:00,867
+742,1921,Chennai,Dairy,Apple,3,231,Debit Card,60,2024-01-31 21:00:00,693
+743,1307,Pune,Personal Care,Onion,3,288,Cash,8,2024-01-31 22:00:00,864
+744,1519,Bangalore,Beverages,Chips,2,127,Cash,56,2024-01-31 23:00:00,254
+745,1316,Chennai,Dairy,Shampoo,5,127,Debit Card,46,2024-02-01 00:00:00,635
+746,1682,Hyderabad,Snacks,Juice,2,49,Cash,23,2024-02-01 01:00:00,98
+747,1418,Delhi,Dairy,Onion,4,75,Credit Card,25,2024-02-01 02:00:00,300
+748,1334,Hyderabad,Fruits,Tomato,4,290,Cash,56,2024-02-01 03:00:00,1160
+749,1412,Hyderabad,Fruits,Banana,5,64,Credit Card,8,2024-02-01 04:00:00,320
+750,1713,Chennai,Dairy,Shampoo,1,267,UPI,52,2024-02-01 05:00:00,267
+751,1302,Mumbai,Personal Care,Soap,3,167,Debit Card,9,2024-02-01 06:00:00,501
+752,1567,Pune,Dairy,Soap,2,238,UPI,40,2024-02-01 07:00:00,476
+753,1130,Chennai,Personal Care,Chips,4,182,Cash,43,2024-02-01 08:00:00,728
+754,1196,Chennai,Dairy,Onion,5,152,Credit Card,29,2024-02-01 09:00:00,760
+755,1430,Bangalore,Dairy,Banana,1,289,Credit Card,10,2024-02-01 10:00:00,289
+756,1680,Hyderabad,Beverages,Banana,5,201,UPI,30,2024-02-01 11:00:00,1005
+757,1962,Bangalore,Snacks,Bread,1,86,Credit Card,21,2024-02-01 12:00:00,86
+758,1388,Pune,Snacks,Soap,5,274,Cash,16,2024-02-01 13:00:00,1370
+759,1693,Chennai,Vegetables,Juice,3,286,UPI,20,2024-02-01 14:00:00,858
+760,1766,Hyderabad,Snacks,Apple,3,274,Debit Card,54,2024-02-01 15:00:00,822
+761,1924,Hyderabad,Beverages,Chips,1,272,Credit Card,60,2024-02-01 16:00:00,272
+762,1178,Mumbai,Dairy,Shampoo,5,112,UPI,30,2024-02-01 17:00:00,560
+763,1630,Chennai,Vegetables,Shampoo,3,139,Debit Card,10,2024-02-01 18:00:00,417
+764,1582,Mumbai,Dairy,Juice,5,168,Cash,6,2024-02-01 19:00:00,840
+765,1308,Pune,Vegetables,Onion,5,119,Debit Card,59,2024-02-01 20:00:00,595
+766,1415,Pune,Beverages,Onion,3,20,Credit Card,18,2024-02-01 21:00:00,60
+767,1561,Bangalore,Snacks,Tomato,4,80,Cash,15,2024-02-01 22:00:00,320
+768,1853,Hyderabad,Personal Care,Soap,4,32,Cash,29,2024-02-01 23:00:00,128
+769,1000,Mumbai,Beverages,Apple,5,258,Cash,54,2024-02-02 00:00:00,1290
+770,1311,Delhi,Vegetables,Apple,4,80,Cash,30,2024-02-02 01:00:00,320
+771,1293,Hyderabad,Vegetables,Tomato,2,126,Credit Card,23,2024-02-02 02:00:00,252
+772,1215,Mumbai,Beverages,Chips,3,232,Debit Card,46,2024-02-02 03:00:00,696
+773,1440,Delhi,Dairy,Tomato,4,231,Debit Card,53,2024-02-02 04:00:00,924
+774,1804,Chennai,Personal Care,Banana,4,43,Cash,46,2024-02-02 05:00:00,172
+775,1593,Chennai,Vegetables,Juice,5,190,Credit Card,14,2024-02-02 06:00:00,950
+776,1621,Hyderabad,Personal Care,Chips,1,199,UPI,12,2024-02-02 07:00:00,199
+777,1670,Bangalore,Vegetables,Bread,4,128,Cash,24,2024-02-02 08:00:00,512
+778,1329,Bangalore,Beverages,Milk,1,25,Credit Card,36,2024-02-02 09:00:00,25
+779,1476,Hyderabad,Fruits,Soap,3,123,UPI,56,2024-02-02 10:00:00,369
+780,1452,Chennai,Beverages,Juice,1,164,Cash,32,2024-02-02 11:00:00,164
+781,1452,Delhi,Personal Care,Soap,4,150,Credit Card,52,2024-02-02 12:00:00,600
+782,1691,Hyderabad,Vegetables,Chips,2,54,Cash,56,2024-02-02 13:00:00,108
+783,1218,Hyderabad,Beverages,Bread,2,177,UPI,24,2024-02-02 14:00:00,354
+784,1523,Bangalore,Beverages,Bread,3,173,Cash,48,2024-02-02 15:00:00,519
+785,1484,Pune,Fruits,Soap,4,279,Credit Card,43,2024-02-02 16:00:00,1116
+786,1812,Bangalore,Personal Care,Juice,3,185,Debit Card,13,2024-02-02 17:00:00,555
+787,1922,Hyderabad,Beverages,Chips,5,23,UPI,27,2024-02-02 18:00:00,115
+788,1982,Hyderabad,Beverages,Tomato,5,78,Cash,47,2024-02-02 19:00:00,390
+789,1815,Delhi,Fruits,Bread,1,190,Credit Card,11,2024-02-02 20:00:00,190
+790,1753,Bangalore,Vegetables,Onion,3,194,UPI,58,2024-02-02 21:00:00,582
+791,1173,Pune,Vegetables,Banana,2,222,UPI,28,2024-02-02 22:00:00,444
+792,1674,Chennai,Fruits,Onion,3,34,Credit Card,37,2024-02-02 23:00:00,102
+793,1086,Chennai,Dairy,Tomato,1,109,Debit Card,17,2024-02-03 00:00:00,109
+794,1290,Chennai,Dairy,Onion,4,119,Credit Card,36,2024-02-03 01:00:00,476
+795,1527,Bangalore,Dairy,Bread,3,189,UPI,33,2024-02-03 02:00:00,567
+796,1679,Pune,Snacks,Tomato,1,193,Cash,29,2024-02-03 03:00:00,193
+797,1648,Hyderabad,Snacks,Bread,5,265,Cash,35,2024-02-03 04:00:00,1325
+798,1634,Bangalore,Snacks,Milk,2,262,Debit Card,22,2024-02-03 05:00:00,524
+799,1343,Delhi,Personal Care,Banana,4,38,Debit Card,41,2024-02-03 06:00:00,152
+800,1095,Chennai,Personal Care,Onion,3,89,Cash,43,2024-02-03 07:00:00,267
+801,1838,Mumbai,Dairy,Banana,3,266,Credit Card,32,2024-02-03 08:00:00,798
+802,1974,Pune,Fruits,Milk,2,99,Cash,10,2024-02-03 09:00:00,198
+803,1769,Delhi,Personal Care,Chips,5,255,Credit Card,53,2024-02-03 10:00:00,1275
+804,1240,Chennai,Beverages,Apple,3,294,Cash,32,2024-02-03 11:00:00,882
+805,1688,Bangalore,Beverages,Shampoo,2,191,UPI,56,2024-02-03 12:00:00,382
+806,1317,Delhi,Snacks,Juice,2,256,UPI,28,2024-02-03 13:00:00,512
+807,1230,Pune,Personal Care,Bread,4,231,Cash,44,2024-02-03 14:00:00,924
+808,1825,Hyderabad,Fruits,Shampoo,2,48,Debit Card,16,2024-02-03 15:00:00,96
+809,1203,Hyderabad,Vegetables,Shampoo,2,286,Cash,32,2024-02-03 16:00:00,572
+810,1150,Pune,Snacks,Bread,2,173,Debit Card,45,2024-02-03 17:00:00,346
+811,1025,Hyderabad,Fruits,Chips,3,181,UPI,32,2024-02-03 18:00:00,543
+812,1047,Hyderabad,Snacks,Chips,2,294,UPI,10,2024-02-03 19:00:00,588
+813,1250,Chennai,Snacks,Chips,2,29,Credit Card,7,2024-02-03 20:00:00,58
+814,1486,Hyderabad,Snacks,Chips,2,126,Debit Card,37,2024-02-03 21:00:00,252
+815,1625,Hyderabad,Snacks,Milk,2,189,Debit Card,26,2024-02-03 22:00:00,378
+816,1870,Bangalore,Personal Care,Juice,5,201,Credit Card,34,2024-02-03 23:00:00,1005
+817,1786,Delhi,Vegetables,Shampoo,3,53,Credit Card,48,2024-02-04 00:00:00,159
+818,1074,Pune,Beverages,Onion,2,96,Debit Card,19,2024-02-04 01:00:00,192
+819,1466,Hyderabad,Fruits,Tomato,1,163,Debit Card,46,2024-02-04 02:00:00,163
+820,1424,Chennai,Fruits,Shampoo,1,35,Credit Card,48,2024-02-04 03:00:00,35
+821,1907,Pune,Vegetables,Juice,1,193,Credit Card,50,2024-02-04 04:00:00,193
+822,1644,Bangalore,Beverages,Milk,4,212,Debit Card,14,2024-02-04 05:00:00,848
+823,1589,Mumbai,Snacks,Milk,5,293,Cash,36,2024-02-04 06:00:00,1465
+824,1199,Pune,Beverages,Shampoo,1,104,Debit Card,38,2024-02-04 07:00:00,104
+825,1735,Chennai,Vegetables,Apple,5,219,UPI,45,2024-02-04 08:00:00,1095
+826,1713,Hyderabad,Dairy,Tomato,1,115,UPI,46,2024-02-04 09:00:00,115
+827,1393,Pune,Dairy,Banana,4,79,UPI,38,2024-02-04 10:00:00,316
+828,1506,Pune,Beverages,Bread,3,177,Cash,10,2024-02-04 11:00:00,531
+829,1409,Delhi,Beverages,Juice,5,181,Credit Card,23,2024-02-04 12:00:00,905
+830,1249,Delhi,Fruits,Banana,3,36,UPI,34,2024-02-04 13:00:00,108
+831,1151,Chennai,Personal Care,Milk,4,159,Cash,32,2024-02-04 14:00:00,636
+832,1671,Pune,Dairy,Milk,5,231,Debit Card,10,2024-02-04 15:00:00,1155
+833,1704,Chennai,Vegetables,Onion,3,64,Credit Card,56,2024-02-04 16:00:00,192
+834,1005,Delhi,Personal Care,Chips,4,274,Debit Card,35,2024-02-04 17:00:00,1096
+835,1914,Pune,Fruits,Juice,2,141,UPI,24,2024-02-04 18:00:00,282
+836,1768,Hyderabad,Beverages,Juice,5,210,Cash,14,2024-02-04 19:00:00,1050
+837,1881,Mumbai,Beverages,Chips,3,251,Credit Card,13,2024-02-04 20:00:00,753
+838,1788,Pune,Dairy,Soap,4,174,UPI,48,2024-02-04 21:00:00,696
+839,1906,Pune,Dairy,Bread,2,130,UPI,24,2024-02-04 22:00:00,260
+840,1109,Hyderabad,Beverages,Onion,5,288,Credit Card,58,2024-02-04 23:00:00,1440
+841,1797,Mumbai,Snacks,Chips,2,174,Credit Card,20,2024-02-05 00:00:00,348
+842,1435,Bangalore,Dairy,Shampoo,1,109,Cash,38,2024-02-05 01:00:00,109
+843,1224,Delhi,Fruits,Bread,5,77,UPI,32,2024-02-05 02:00:00,385
+844,1180,Hyderabad,Beverages,Onion,4,211,Debit Card,23,2024-02-05 03:00:00,844
+845,1823,Chennai,Dairy,Tomato,4,39,Cash,41,2024-02-05 04:00:00,156
+846,1980,Bangalore,Fruits,Milk,5,123,Debit Card,8,2024-02-05 05:00:00,615
+847,1712,Mumbai,Fruits,Apple,1,67,UPI,40,2024-02-05 06:00:00,67
+848,1530,Mumbai,Beverages,Onion,5,247,UPI,9,2024-02-05 07:00:00,1235
+849,1475,Chennai,Fruits,Apple,3,279,Cash,7,2024-02-05 08:00:00,837
+850,1051,Pune,Dairy,Milk,4,32,Cash,37,2024-02-05 09:00:00,128
+851,1570,Hyderabad,Fruits,Juice,2,267,UPI,11,2024-02-05 10:00:00,534
+852,1255,Bangalore,Beverages,Bread,4,276,UPI,37,2024-02-05 11:00:00,1104
+853,1939,Bangalore,Personal Care,Shampoo,1,98,Credit Card,32,2024-02-05 12:00:00,98
+854,1868,Bangalore,Beverages,Shampoo,5,117,Credit Card,31,2024-02-05 13:00:00,585
+855,1124,Mumbai,Snacks,Banana,4,194,Cash,11,2024-02-05 14:00:00,776
+856,1467,Hyderabad,Snacks,Soap,3,267,Debit Card,34,2024-02-05 15:00:00,801
+857,1136,Pune,Vegetables,Shampoo,1,288,UPI,47,2024-02-05 16:00:00,288
+858,1820,Bangalore,Dairy,Soap,1,178,Cash,51,2024-02-05 17:00:00,178
+859,1475,Chennai,Dairy,Juice,2,187,UPI,41,2024-02-05 18:00:00,374
+860,1683,Pune,Beverages,Milk,4,93,UPI,57,2024-02-05 19:00:00,372
+861,1543,Chennai,Snacks,Bread,5,70,UPI,21,2024-02-05 20:00:00,350
+862,1572,Chennai,Vegetables,Tomato,1,284,Credit Card,27,2024-02-05 21:00:00,284
+863,1609,Mumbai,Snacks,Milk,3,87,Credit Card,21,2024-02-05 22:00:00,261
+864,1324,Mumbai,Dairy,Bread,3,125,UPI,42,2024-02-05 23:00:00,375
+865,1972,Mumbai,Beverages,Chips,5,38,Credit Card,10,2024-02-06 00:00:00,190
+866,1773,Mumbai,Personal Care,Bread,3,255,UPI,54,2024-02-06 01:00:00,765
+867,1912,Bangalore,Dairy,Apple,2,218,UPI,37,2024-02-06 02:00:00,436
+868,1453,Delhi,Dairy,Shampoo,5,287,Credit Card,6,2024-02-06 03:00:00,1435
+869,1627,Delhi,Fruits,Apple,3,79,Cash,12,2024-02-06 04:00:00,237
+870,1834,Bangalore,Vegetables,Soap,2,22,Credit Card,52,2024-02-06 05:00:00,44
+871,1736,Pune,Vegetables,Milk,3,179,Cash,47,2024-02-06 06:00:00,537
+872,1913,Mumbai,Beverages,Chips,4,42,Debit Card,34,2024-02-06 07:00:00,168
+873,1516,Bangalore,Beverages,Bread,5,64,Debit Card,16,2024-02-06 08:00:00,320
+874,1436,Bangalore,Snacks,Juice,3,190,Credit Card,55,2024-02-06 09:00:00,570
+875,1850,Chennai,Beverages,Soap,3,259,Credit Card,16,2024-02-06 10:00:00,777
+876,1928,Mumbai,Snacks,Shampoo,2,43,UPI,58,2024-02-06 11:00:00,86
+877,1561,Pune,Dairy,Chips,4,72,Debit Card,30,2024-02-06 12:00:00,288
+878,1456,Pune,Vegetables,Tomato,4,286,Debit Card,7,2024-02-06 13:00:00,1144
+879,1918,Mumbai,Fruits,Juice,2,179,Credit Card,10,2024-02-06 14:00:00,358
+880,1162,Hyderabad,Beverages,Soap,4,31,Credit Card,31,2024-02-06 15:00:00,124
+881,1761,Chennai,Dairy,Apple,3,179,Debit Card,50,2024-02-06 16:00:00,537
+882,1882,Bangalore,Personal Care,Shampoo,3,127,UPI,24,2024-02-06 17:00:00,381
+883,1486,Delhi,Vegetables,Chips,4,184,Debit Card,25,2024-02-06 18:00:00,736
+884,1460,Bangalore,Dairy,Soap,3,122,UPI,42,2024-02-06 19:00:00,366
+885,1265,Chennai,Dairy,Shampoo,4,118,Credit Card,51,2024-02-06 20:00:00,472
+886,1769,Hyderabad,Fruits,Tomato,2,166,Debit Card,34,2024-02-06 21:00:00,332
+887,1253,Mumbai,Dairy,Onion,5,161,Debit Card,53,2024-02-06 22:00:00,805
+888,1860,Pune,Dairy,Banana,2,292,Debit Card,47,2024-02-06 23:00:00,584
+889,1652,Delhi,Vegetables,Chips,5,183,Cash,33,2024-02-07 00:00:00,915
+890,1283,Bangalore,Beverages,Bread,2,245,Credit Card,44,2024-02-07 01:00:00,490
+891,1784,Delhi,Beverages,Juice,1,80,UPI,56,2024-02-07 02:00:00,80
+892,1796,Hyderabad,Personal Care,Onion,3,159,Credit Card,21,2024-02-07 03:00:00,477
+893,1533,Hyderabad,Snacks,Soap,2,96,UPI,26,2024-02-07 04:00:00,192
+894,1496,Bangalore,Beverages,Chips,5,100,Debit Card,60,2024-02-07 05:00:00,500
+895,1641,Chennai,Vegetables,Apple,4,160,Debit Card,56,2024-02-07 06:00:00,640
+896,1244,Mumbai,Vegetables,Milk,4,78,Cash,16,2024-02-07 07:00:00,312
+897,1281,Hyderabad,Fruits,Milk,2,27,Credit Card,18,2024-02-07 08:00:00,54
+898,1450,Hyderabad,Dairy,Bread,2,283,Cash,16,2024-02-07 09:00:00,566
+899,1079,Hyderabad,Fruits,Juice,2,72,Debit Card,10,2024-02-07 10:00:00,144
+900,1730,Pune,Dairy,Chips,4,125,Cash,52,2024-02-07 11:00:00,500
+901,1292,Delhi,Snacks,Onion,1,297,Cash,43,2024-02-07 12:00:00,297
+902,1240,Bangalore,Snacks,Shampoo,2,199,Credit Card,21,2024-02-07 13:00:00,398
+903,1278,Mumbai,Dairy,Milk,4,183,Cash,60,2024-02-07 14:00:00,732
+904,1343,Hyderabad,Dairy,Shampoo,4,158,Cash,48,2024-02-07 15:00:00,632
+905,1327,Delhi,Snacks,Onion,2,92,Cash,11,2024-02-07 16:00:00,184
+906,1914,Pune,Personal Care,Soap,5,165,Credit Card,32,2024-02-07 17:00:00,825
+907,1553,Hyderabad,Personal Care,Chips,5,145,UPI,39,2024-02-07 18:00:00,725
+908,1082,Mumbai,Vegetables,Onion,3,107,Cash,6,2024-02-07 19:00:00,321
+909,1141,Chennai,Vegetables,Apple,4,56,Cash,5,2024-02-07 20:00:00,224
+910,1154,Hyderabad,Vegetables,Milk,3,179,Cash,30,2024-02-07 21:00:00,537
+911,1236,Pune,Vegetables,Tomato,3,193,Credit Card,12,2024-02-07 22:00:00,579
+912,1392,Hyderabad,Personal Care,Tomato,5,296,Credit Card,5,2024-02-07 23:00:00,1480
+913,1710,Bangalore,Snacks,Tomato,5,247,Debit Card,15,2024-02-08 00:00:00,1235
+914,1156,Chennai,Personal Care,Banana,1,45,UPI,46,2024-02-08 01:00:00,45
+915,1723,Bangalore,Personal Care,Soap,4,86,Cash,35,2024-02-08 02:00:00,344
+916,1219,Mumbai,Dairy,Chips,1,34,Debit Card,34,2024-02-08 03:00:00,34
+917,1065,Mumbai,Vegetables,Bread,2,261,Cash,49,2024-02-08 04:00:00,522
+918,1424,Pune,Dairy,Tomato,1,45,Debit Card,30,2024-02-08 05:00:00,45
+919,1417,Mumbai,Snacks,Tomato,2,74,Debit Card,60,2024-02-08 06:00:00,148
+920,1338,Bangalore,Snacks,Milk,3,216,Debit Card,47,2024-02-08 07:00:00,648
+921,1555,Delhi,Dairy,Bread,4,47,Debit Card,52,2024-02-08 08:00:00,188
+922,1477,Hyderabad,Dairy,Soap,1,64,Cash,43,2024-02-08 09:00:00,64
+923,1425,Bangalore,Beverages,Banana,4,238,UPI,51,2024-02-08 10:00:00,952
+924,1063,Hyderabad,Dairy,Tomato,3,220,Credit Card,36,2024-02-08 11:00:00,660
+925,1211,Pune,Vegetables,Onion,3,111,Credit Card,24,2024-02-08 12:00:00,333
+926,1852,Bangalore,Snacks,Apple,3,248,Cash,44,2024-02-08 13:00:00,744
+927,1430,Mumbai,Beverages,Shampoo,3,202,Credit Card,57,2024-02-08 14:00:00,606
+928,1398,Mumbai,Vegetables,Banana,5,179,Credit Card,44,2024-02-08 15:00:00,895
+929,1926,Hyderabad,Fruits,Banana,5,190,UPI,28,2024-02-08 16:00:00,950
+930,1788,Pune,Vegetables,Bread,3,121,Cash,49,2024-02-08 17:00:00,363
+931,1598,Pune,Vegetables,Chips,3,293,Credit Card,48,2024-02-08 18:00:00,879
+932,1968,Chennai,Beverages,Chips,1,60,Debit Card,49,2024-02-08 19:00:00,60
+933,1712,Mumbai,Snacks,Tomato,4,258,Credit Card,48,2024-02-08 20:00:00,1032
+934,1020,Delhi,Beverages,Soap,1,87,Debit Card,30,2024-02-08 21:00:00,87
+935,1877,Bangalore,Dairy,Chips,3,67,UPI,56,2024-02-08 22:00:00,201
+936,1901,Pune,Snacks,Chips,5,259,Cash,24,2024-02-08 23:00:00,1295
+937,1783,Chennai,Snacks,Tomato,2,69,UPI,10,2024-02-09 00:00:00,138
+938,1589,Bangalore,Vegetables,Bread,5,253,UPI,13,2024-02-09 01:00:00,1265
+939,1389,Delhi,Snacks,Bread,5,178,Debit Card,13,2024-02-09 02:00:00,890
+940,1488,Pune,Personal Care,Shampoo,5,258,Cash,5,2024-02-09 03:00:00,1290
+941,1006,Chennai,Snacks,Onion,2,260,UPI,17,2024-02-09 04:00:00,520
+942,1965,Delhi,Beverages,Tomato,3,138,Cash,12,2024-02-09 05:00:00,414
+943,1360,Delhi,Beverages,Bread,3,134,Cash,57,2024-02-09 06:00:00,402
+944,1305,Mumbai,Dairy,Onion,3,93,Debit Card,6,2024-02-09 07:00:00,279
+945,1771,Pune,Vegetables,Chips,5,152,Debit Card,49,2024-02-09 08:00:00,760
+946,1399,Mumbai,Dairy,Juice,4,206,Credit Card,17,2024-02-09 09:00:00,824
+947,1873,Bangalore,Beverages,Chips,4,220,Debit Card,59,2024-02-09 10:00:00,880
+948,1913,Hyderabad,Snacks,Soap,1,113,Debit Card,6,2024-02-09 11:00:00,113
+949,1976,Delhi,Vegetables,Shampoo,4,189,Debit Card,18,2024-02-09 12:00:00,756
+950,1855,Chennai,Personal Care,Soap,5,186,Cash,35,2024-02-09 13:00:00,930
+951,1429,Bangalore,Fruits,Tomato,3,252,Credit Card,46,2024-02-09 14:00:00,756
+952,1551,Hyderabad,Vegetables,Tomato,4,269,Debit Card,14,2024-02-09 15:00:00,1076
+953,1765,Delhi,Personal Care,Shampoo,2,35,Debit Card,46,2024-02-09 16:00:00,70
+954,1752,Pune,Fruits,Tomato,2,53,Credit Card,20,2024-02-09 17:00:00,106
+955,1559,Mumbai,Personal Care,Chips,3,263,UPI,32,2024-02-09 18:00:00,789
+956,1819,Mumbai,Fruits,Chips,4,77,Cash,58,2024-02-09 19:00:00,308
+957,1617,Mumbai,Beverages,Tomato,5,199,UPI,45,2024-02-09 20:00:00,995
+958,1919,Chennai,Vegetables,Chips,5,265,Cash,59,2024-02-09 21:00:00,1325
+959,1225,Mumbai,Beverages,Milk,4,256,UPI,55,2024-02-09 22:00:00,1024
+960,1499,Delhi,Beverages,Soap,1,107,Debit Card,39,2024-02-09 23:00:00,107
+961,1224,Pune,Personal Care,Milk,1,164,UPI,17,2024-02-10 00:00:00,164
+962,1279,Mumbai,Snacks,Tomato,2,198,Credit Card,10,2024-02-10 01:00:00,396
+963,1446,Pune,Dairy,Juice,3,85,Debit Card,24,2024-02-10 02:00:00,255
+964,1497,Delhi,Snacks,Shampoo,2,280,Cash,54,2024-02-10 03:00:00,560
+965,1029,Bangalore,Beverages,Shampoo,3,72,UPI,34,2024-02-10 04:00:00,216
+966,1398,Mumbai,Beverages,Apple,3,227,UPI,14,2024-02-10 05:00:00,681
+967,1344,Mumbai,Beverages,Onion,3,74,Credit Card,35,2024-02-10 06:00:00,222
+968,1684,Chennai,Snacks,Tomato,3,186,Cash,32,2024-02-10 07:00:00,558
+969,1695,Delhi,Snacks,Juice,5,56,Cash,6,2024-02-10 08:00:00,280
+970,1817,Delhi,Snacks,Soap,4,174,Credit Card,12,2024-02-10 09:00:00,696
+971,1414,Bangalore,Vegetables,Soap,3,292,Debit Card,15,2024-02-10 10:00:00,876
+972,1741,Delhi,Personal Care,Chips,4,256,Credit Card,14,2024-02-10 11:00:00,1024
+973,1169,Delhi,Vegetables,Shampoo,3,225,Credit Card,52,2024-02-10 12:00:00,675
+974,1860,Mumbai,Snacks,Chips,5,231,Cash,49,2024-02-10 13:00:00,1155
+975,1478,Pune,Personal Care,Soap,5,142,Cash,33,2024-02-10 14:00:00,710
+976,1941,Bangalore,Snacks,Soap,4,144,Cash,36,2024-02-10 15:00:00,576
+977,1130,Mumbai,Personal Care,Bread,4,300,Cash,35,2024-02-10 16:00:00,1200
+978,1637,Mumbai,Beverages,Tomato,2,101,Credit Card,6,2024-02-10 17:00:00,202
+979,1546,Pune,Fruits,Tomato,2,266,Credit Card,60,2024-02-10 18:00:00,532
+980,1027,Chennai,Beverages,Soap,1,216,Debit Card,33,2024-02-10 19:00:00,216
+981,1928,Hyderabad,Dairy,Milk,2,53,Credit Card,42,2024-02-10 20:00:00,106
+982,1403,Mumbai,Fruits,Onion,2,194,UPI,20,2024-02-10 21:00:00,388
+983,1606,Hyderabad,Vegetables,Juice,3,126,Debit Card,17,2024-02-10 22:00:00,378
+984,1577,Pune,Snacks,Chips,1,240,Debit Card,23,2024-02-10 23:00:00,240
+985,1678,Bangalore,Beverages,Chips,2,242,Debit Card,41,2024-02-11 00:00:00,484
+986,1027,Pune,Fruits,Bread,2,195,UPI,58,2024-02-11 01:00:00,390
+987,1085,Mumbai,Fruits,Shampoo,4,298,Cash,58,2024-02-11 02:00:00,1192
+988,1658,Hyderabad,Vegetables,Banana,1,140,Debit Card,30,2024-02-11 03:00:00,140
+989,1438,Pune,Vegetables,Banana,1,108,Cash,8,2024-02-11 04:00:00,108
+990,1138,Bangalore,Personal Care,Apple,1,59,UPI,26,2024-02-11 05:00:00,59
+991,1887,Bangalore,Dairy,Juice,4,269,UPI,5,2024-02-11 06:00:00,1076
+992,1472,Chennai,Fruits,Juice,5,78,Credit Card,11,2024-02-11 07:00:00,390
+993,1186,Pune,Snacks,Banana,1,257,Debit Card,45,2024-02-11 08:00:00,257
+994,1051,Mumbai,Snacks,Tomato,1,186,Debit Card,59,2024-02-11 09:00:00,186
+995,1266,Bangalore,Dairy,Milk,4,69,UPI,50,2024-02-11 10:00:00,276
+996,1388,Delhi,Fruits,Chips,5,247,Cash,32,2024-02-11 11:00:00,1235
+997,1335,Hyderabad,Beverages,Juice,1,110,Cash,31,2024-02-11 12:00:00,110
+998,1216,Mumbai,Beverages,Milk,1,177,Cash,59,2024-02-11 13:00:00,177
+999,1465,Chennai,Dairy,Chips,3,227,Debit Card,36,2024-02-11 14:00:00,681
+1000,1334,Bangalore,Beverages,Banana,5,55,Credit Card,52,2024-02-11 15:00:00,275
